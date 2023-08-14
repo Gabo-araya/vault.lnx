@@ -57,7 +57,7 @@ Abrir una nueva consola de bash
 
 Generar token en github para el servidor (no usar este)
 ```
-ghp_gfpEiMWfNyrTZOT8o4STKfxf7y6YkP3QL3v3
+ghp_gfpEiMWfNyrTfZOT8oa4STKdfxsf7y6YkP3QL3v3
 ```
 
 Clonar repositorio privado de github
