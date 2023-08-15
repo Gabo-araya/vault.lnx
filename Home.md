@@ -35,6 +35,8 @@
 >* [[Open Source]]
 >* [[OpenVAS]]
 >* [[Definiciones de Malware]]
+>* [Cómo hacer preguntas inteligentes (Eric. S. Raymond)](https://sindominio.net/ayuda/preguntas-inteligentes.html)
+>* [Cómo ser un hacker (Eric. S. Raymond)](https://www.smaldone.com.ar/documentos/docs/comoserhacker.shtml)
 
 ---
 ## 3. Comandos

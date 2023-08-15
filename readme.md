@@ -1,7 +1,8 @@
 ![[header.jpg]]
-# Readme!
+# readme
 
-Este es el readme para clonar mi vault de obsidian para GNU/Linux.
+Este es el readme para clonar/descargar este vault de Obsidian para GNU/Linux. 
+_Si bien se pueden descargar los archivos .md directamente para ser visualizados en cualquier editor o visualizador de [Markdown](https://es.wikipedia.org/wiki/Markdown), se recomienda usar Obsidian para mantener la integridad de los vínculos entre las notas._
 ***
 **Tags:**  #docs #obsidian #readme #info
 
@@ -22,7 +23,9 @@ _Estas instrucciones te permitirán obtener una copia de esta bóveda de conocim
 
 Para poder visualizar adecuadamente estos documentos es necesario instalar Obsidian. Para la instalación se pueden seguir las instrucciones en la página oficial de Obsidian.
 
->[!tip] Visitar [Download and install Obsidian](https://help.obsidian.md/Getting+started/Download+and+install+Obsidian)
+>[!tip] Descargar [Obsidian](https://obsidian.md/download)
+
+>[!tip] Visitar documentación: [Download and install Obsidian](https://help.obsidian.md/Getting+started/Download+and+install+Obsidian)
 
 ---
 ## 2. Descargar el repositorio desde Github 🔩
@@ -44,8 +47,9 @@ Para cargar el directorio, se debe seleccionar "Open folder as a vault" y luego 
 ---
 ## 4. Cómo usar Obsidian 🛠️
 
-* [Obsidian](http://www.dropwizard.io/1.0.2/docs/) - Herramienta para tomar crear bóvedas de conocimiento.
-
+* Documentación: [Obsidian](https://help.obsidian.md/Home) - Herramienta para tomar crear bóvedas de conocimiento.
+- Video: [Cómo configurar Obsidian paso a paso](https://www.youtube.com/watch?v=FEgkH9rzSa0)
+ 
 ![](https://www.youtube.com/watch?v=FEgkH9rzSa0)
 
 

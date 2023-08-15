@@ -65,14 +65,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Django Info/Deploy Django/deploy_pythonanywhere_django3.2.md",
+                "file": "Bash + Tools/notas_clases_unab/Notas clase taller ciberseguridad - 10.08.2023.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e9b780e861b89add",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hacking/Conectarse usando The Onion Router.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "573f9887332072e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bash + Tools/notas_clases_unab/Notas clase taller ciberseguridad - 10.08.2023.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -138,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Django Info/Deploy Django/deploy_pythonanywhere_django3.2.md",
+                "file": "Bash + Tools/notas_clases_unab/Notas clase taller ciberseguridad - 10.08.2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Django Info/Deploy Django/deploy_pythonanywhere_django3.2.md",
+                "file": "Bash + Tools/notas_clases_unab/Notas clase taller ciberseguridad - 10.08.2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Django Info/Deploy Django/deploy_pythonanywhere_django3.2.md"
+                "file": "Bash + Tools/notas_clases_unab/Notas clase taller ciberseguridad - 10.08.2023.md"
               }
             }
           }
@@ -199,13 +223,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f84e3464eceb0694",
+  "active": "573f9887332072e9",
   "lastOpenFiles": [
+    "readme.md",
+    "Home.md",
+    "Hacking/Conectarse usando The Onion Router.md",
+    "Hacking/Kali Linux post-instalacion.md",
+    "Bash + Tools/Comando history.md",
+    "Bash + Tools/notas_clases_unab/Notas clase taller ciberseguridad - 10.08.2023.md",
+    "Bash + Tools/Kali Tools.md",
+    "Django Info/Deploy Django/deploy_pythonanywhere_django3.2.md",
     "varios/github_info.md",
     "Bash + Tools/Configuración de GIT con GitHub.md",
     "gitignore.txt",
-    "Hacking/Kali Linux post-instalacion.md",
-    "Home.md",
     "Hacking/Vínculos y Herramientas OSINT.md",
     "Bash + Tools/Ubuntu Command Line Tips.md",
     "Ciberseguridad.md",
@@ -213,23 +243,17 @@
     "Bash + Tools/Comando netcat.md",
     "Bash + Tools/Comando systemctl.md",
     "Hacking/LLMs Prompts ChatGPT.md",
-    "Bash + Tools/notas_clases_unab/Notas clase taller ciberseguridad - 10.08.2023.md",
     "Hacking/Atacar Metasploitable 2.md",
     "Bash + Tools/Comando ifconfig.md",
     "varios/template_minuta.md",
     "Deploy RPi/infraestructura_LEMP.md",
     "Bash + Tools/Comando man.md",
-    "readme.md",
     "license.md",
     "Hacking/Ubuntu Touch/Ubuntu Touch.md",
     "Bash + Tools/Comando nmap.md",
     "Bash + Tools/Comando ping.md",
-    "Bash + Tools/Comando du.md",
     "notas_varias/del",
     "Bash + Tools/notas_clases_unab",
-    "Bash + Tools/Kali Tools.md",
-    "Bash + Tools/Conocer la IP del dispositivo.md",
-    "Bash + Tools/Comando history.md",
     "Normativa/Untitled",
     "imgs/obsidian_cargar_nueva_boveda.png",
     "varios/header_keyboard.jpg",
