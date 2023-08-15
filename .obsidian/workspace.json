@@ -53,7 +53,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Django Info/Django - Información de Configuración.md",
+                "file": "Comandos bash/Comando sublist3r.md",
                 "mode": "source",
                 "source": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Django Info/Django - Información de Configuración.md",
+                "file": "Comandos bash/Comando sublist3r.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Django Info/Django - Información de Configuración.md",
+                "file": "Comandos bash/Comando sublist3r.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Django Info/Django - Información de Configuración.md"
+                "file": "Comandos bash/Comando sublist3r.md"
               }
             }
           }
@@ -189,6 +189,13 @@
   },
   "active": "57763087f91d6b39",
   "lastOpenFiles": [
+    "Comandos bash/Comando arp-scan.md",
+    "Comandos bash/Comando sublist3r.md",
+    "Linux Hacking/Escanear puertos.md",
+    "Linux Hacking/Vínculos y Herramientas OSINT.md",
+    "Comandos bash/Comando nmap.md",
+    "Comandos bash/Comando ssh.md",
+    "Django Info/Django - Información de Configuración.md",
     "Django Info/imgs_django/django_process.gif",
     "Django Info/imgs_django/modelo_vista_template.png",
     "Django Info/imgs_django/django_virtualenv.png",
@@ -199,15 +206,11 @@
     "Django Info/Carpeta sin título",
     "Comandos bash/Comando ifconfig.md",
     "Home.md",
-    "Linux Hacking/Vínculos y Herramientas OSINT.md",
     "Django Info/Datos iniciales GitHub.md",
     "Comandos bash/Comando man.md",
-    "Comandos bash/Comando ssh.md",
-    "Linux Hacking/Escanear puertos.md",
     "Linux Hacking/Herramienta Metasploit.md",
     "Linux Hacking/Herramienta theHarvester.md",
     "Comandos bash/Comando netcat.md",
-    "Comandos bash/Comando nmap.md",
     "Comandos bash/Comando ping.md",
     "Comandos bash/Comando systemctl.md",
     "Comandos bash/Comando grep.md",
@@ -222,8 +225,6 @@
     "Django Info/django_process.gif",
     "Django Info/Deploy Django/deploy_pythonanywhere_django3.2.md",
     "Django Info/Deploy Django/migrar_bd_sqlite_mysql.md",
-    "Django Info/Advanced Django Cheat Sheet.md",
-    "Django Info/Django - Información de Configuración.md",
     "imgs/img_conceptos/HTTP_REQUEST_METHODS.jpeg",
     "imgs/img_conceptos",
     "imgs/img_varias",
@@ -233,7 +234,6 @@
     "Bash + Tools/notas_clases_unab",
     "Normativa/Untitled",
     "imgs/img_headers/header_keyboard.jpg",
-    "imgs/img_headers/header_kali.jpg",
     "Comandos bash"
   ]
 }

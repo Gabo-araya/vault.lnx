@@ -11,12 +11,24 @@ Tags:  #django #codigo #linux #readme
 ---
 
 >[!abstract] Temario
-> * [[#1. Pre-requisitos]]
-> * [[#2. Comandos para configuración local]]
-> * [[#3. Comandos para configuración de Django]]
-> * [[#4. Aplicaciones creadas]]
-> * [[#5. Paquetes instalados]]
+> * [[#1. Django]]
+> * [[#2. Pre-requisitos]]
+> * [[#3. Comandos para instalación y configuración de Django]]
 
+>[!tip] Revisar también: 
+>* [From browser to Django](https://www.mattlayman.com/understand-django/browser-to-django/)
+>* [How To Install PrivateGPT - Chat With PDF, TXT, and CSV Files Privately! (Quick Setup Guide)](https://www.youtube.com/watch?v=jxSPx1bfl2M&ab_channel=MatthewBerman) 
+>* [https://github.com/imartinez/privateGPT](https://github.com/imartinez/privateGPT)
+>* [46.- Curso Django 2 | Login y Logout con Django](https://www.youtube.com/watch?v=hdCsb9R1-wM&list=PLjOlikuunzV_vQ9M3laKkIfGWug54ZJ9N&ab_channel=Developer.pe)
+>* [Django Machine Learning Project - Iris Prediction](https://www.youtube.com/watch?v=_3xj9B0qqps&ab_channel=VeryAcademy)
+>* [Django ChatGPT Clone Tutorial](https://www.youtube.com/watch?v=qrZGfBBlXpk&ab_channel=freeCodeCamp.org)
+>* [https://github.com/tomitokko/django-chatbot](https://github.com/tomitokko/django-chatbot)
+>* [Django and HTMX #7 - File Uploads and Film Detail page](https://www.youtube.com/watch?v=flqSOdo51tI&list=PL-2EBeDYMIbRByZ8GXhcnQSuv2dog4JxY&index=10&ab_channel=BugBytes)
+>* [How to use chatGPT with Python 🔥 | Create a chatbot with open AI and Django](https://www.youtube.com/watch?v=J3KmdtjqYsw&ab_channel=Pyplane)
+>* [https://www.mattlayman.com/blog/2021/how-to-htmx-django/](https://www.mattlayman.com/blog/2021/how-to-htmx-django/)
+>* [https://www.mattlayman.com/understand-django/browser-to-django/](https://www.mattlayman.com/understand-django/browser-to-django/)
+
+ 
 ---
 ## 1. Django
 
