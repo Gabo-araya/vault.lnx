@@ -116,7 +116,7 @@
 >* **[[Formato Markdown Obsidian]]**
 >* **[[template]]**
 >* **[[template_minuta]]**
->* **[[sugerencias_estructura]]**
+>* **[[Sugerencias de estructura en Obsidian]]**
 
 
 

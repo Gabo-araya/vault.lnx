@@ -1,4 +1,4 @@
-# Sugerencias de estructura
+# Sugerencias de estructura en Obsidian
 
 ***
 **Tags:** #readme #info #obsidian 

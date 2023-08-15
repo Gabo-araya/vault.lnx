@@ -226,5 +226,32 @@ git push -u origin main
 ```
 
 ---
+## 5. Consejos para realizar commits de calidad
 
+Consejos para escribir descripciones útiles y claras al usar el comando `git commit -m "descripcion"`:
 
+1. **Sé conciso pero descriptivo:** Intenta resumir el propósito del commit en una sola línea, pero asegúrate de que sea lo suficientemente descriptivo para que otros puedan entender de qué se trata el cambio.
+
+2. **Usa un lenguaje claro:** Evita jerga o abreviaturas que puedan no ser comprensibles para otros miembros del equipo. Utiliza un lenguaje claro y preciso.
+
+3. **Comienza con un verbo en tiempo presente:** Inicia la descripción con un verbo en tiempo presente que describa la acción principal del commit. Por ejemplo, "Corrige", "Agrega", "Actualiza", etc.
+
+4. **Especifica qué se cambió:** Detalla qué se modificó o agregó en este commit. Esto ayuda a otros a comprender los cambios realizados.
+
+5. **Menciona la razón o contexto:** Si es relevante, proporciona un contexto o una razón para el cambio. ¿Por qué se hizo esta modificación?
+
+6. **Relaciónalo con tareas o problemas:** Si tu equipo utiliza una herramienta de seguimiento de problemas o tareas, considera mencionar el número o el título relacionado con la tarea que se está abordando en este commit.
+
+7. **Evita descripciones genéricas:** Trata de evitar descripciones genéricas como "Arreglo de errores" o "Actualización de código". En lugar de eso, sé más específico sobre el problema o el aspecto del código que estás abordando.
+
+8. **Utiliza el tiempo presente:** Aunque el commit se haya realizado en el pasado, utiliza el tiempo presente en la descripción para que parezca que está ocurriendo en el momento del commit.
+
+9. **Agrega un máximo de 50-72 caracteres:** Intenta mantener la descripción en este rango para que sea fácil de leer en diferentes interfaces y herramientas.
+
+10. **Revisa antes de confirmar:** Antes de hacer el commit, tómate un momento para leer la descripción y asegurarte de que sea precisa y comprensible.
+
+11. **Evita cambios masivos en un solo commit:** Si es posible, intenta hacer cambios más pequeños y específicos en cada commit en lugar de cambios masivos en un solo commit. Esto hace que los cambios sean más manejables y fáciles de entender.
+
+Recuerda que las descripciones de los commits son una forma importante de comunicar y documentar los cambios en el código. Una buena descripción facilita la colaboración y la comprensión del historial de cambios por parte de tu equipo y futuros desarrolladores.
+
+---

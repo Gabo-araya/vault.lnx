@@ -1,6 +1,9 @@
 
 ![[header_terminal.jpg]]
-## Notas clase taller ciberseguridad - 10.08.2023
+# Enumerar equipos en una red (nmap)
+
+Notas clase taller ciberseguridad - 10.08.2023
+
 ---
 **Tags:** #info #bash #linux #ciberseguridad #tool 
 **Fecha creación:** 10.08.2023
@@ -199,7 +202,7 @@ locate .nse | grep ssl
 **Descripción del programa `nmap` y sus casos de uso:**
 
 `nmap` (Network Mapper) es una herramienta de código abierto utilizada para descubrir y mapear redes, así como para auditar la seguridad de los sistemas y dispositivos en una red. Proporciona una amplia gama de funcionalidades de escaneo y detección de puertos, protocolos y servicios en una red, lo que lo convierte en una herramienta esencial para administradores de sistemas y profesionales de seguridad.
-#### Casos de uso y ejemplos de `nmap` con la IP "10.0.200.5"
+#### 3.2.1 Casos de uso y ejemplos de `nmap` con la IP "10.0.200.5"
 
 1. **Escaneo de ping:**
 
@@ -246,7 +249,7 @@ Aquí se escanean todos los puertos en el rango del 0 al 62535 en la dirección 
 La opción `-sV` activa la detección de versiones de servicios. Cuando se utiliza esta opción, `nmap` intentará determinar las versiones de los servicios que se están ejecutando en los puertos abiertos.****
 
 `nmap` ofrece una amplia variedad de opciones y características avanzadas que permiten realizar análisis más detallados y específicos de las redes y sistemas. Sin embargo, es importante utilizar `nmap` con responsabilidad y obtener permisos adecuados para realizar escaneos en una red, ya que el escaneo no autorizado puede violar políticas de seguridad y privacidad.
-#### Comandos usados en la clase
+#### 3.2.2 Comandos usados en la clase
 
 Escanea usando ping
    ```bash

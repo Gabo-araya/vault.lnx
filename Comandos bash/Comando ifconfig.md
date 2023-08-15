@@ -1,7 +1,7 @@
 
 
 ![[header_terminal.jpg]]
-## El comando ifconfig en Ubuntu
+# Comando `ifconfig`
 ---
 **Tags:** #info #bash #linux #ciberseguridad #tool 
 **Fecha creación:** 12.08.2023
@@ -17,25 +17,30 @@ Es frecuente que únicamente utilicemos el comando **ifconfig** cuando necesit
 
 Aún así, se trata de un comando con características interesantes que conviene conocer bien para obtener de él todo su potencial. Una verdadera navaja suiza de la configuración de red. Por ese motivo, hoy vamos a profundizar en su funcionamiento. Y, para que resulte más instructivo, lo haremos a través de ejemplos.
 
-## ifconfig sin argumentos
+---
+## `ifconfig` sin argumentos
 
-Este es, probablemente, el uso más extendido que se hace de **ifconfig**. Basta con escribir el nombre del comando y pulsar la tecla Intro. Al hacerlo, nos muestra los detalles de todos los interfaces de red que se encuentren activos en nuestro sistema.
+Este es, probablemente, el uso más extendido que se hace de `ifconfig`. Basta con escribir el nombre del comando y pulsar la tecla Intro. Al hacerlo, nos muestra los detalles de todos los interfaces de red que se encuentren activos en nuestro sistema.
 
+```bash
 ifconfig
+```
 
 Puede que, la primera vez que utilices el comando, recibas un error como el de la siguiente imagen.
 
-Error al ejecutar **ifconfig**.
+Error al ejecutar `ifconfig`.
 
 [![el-comando-ifconfig-en-Ubuntu-001](http://somebooks.es/wp-content/uploads/2018/03/el-comando-ifconfig-en-Ubuntu-001.png)](http://somebooks.es/wp-content/uploads/2018/03/el-comando-ifconfig-en-Ubuntu-001.png "el-comando-ifconfig-en-Ubuntu-001")
 
-Tal y como nos dice el propio mensaje de error, el motivo es que no está instalado el paquete _net-tools_. Incluso nos ofrece el comando que necesitaremos para instalarlo:
+Tal y como nos dice el propio mensaje de error, el motivo es que no está instalado el paquete `net-tools`. Incluso nos ofrece el comando que necesitaremos para instalarlo:
 
+```bash
 sudo apt install net-tools
+```
 
 Una vez completada la instalación estaremos listos para comenzar a utilizar el comando.
 
-Información ofrecida por **ifconfig**.
+Información ofrecida por `ifconfig`.
 
 [![el-comando-ifconfig-en-Ubuntu-002](http://somebooks.es/wp-content/uploads/2018/03/el-comando-ifconfig-en-Ubuntu-002.png)](http://somebooks.es/wp-content/uploads/2018/03/el-comando-ifconfig-en-Ubuntu-002.png "el-comando-ifconfig-en-Ubuntu-002")
 
@@ -71,98 +76,116 @@ Como puedes ver en la imagen, la cantidad de información que obtenemos de cada 
 
 La _dirección MAC_ está formada por 48 bits. Los primeros 24 identifican al fabricante (a nivel mundial) y los 24 restantes al dispositivo de forma única para dicho fabricante.
 
+---
 ## Obtener la información de un solo adaptador de red
 
 En la mayoría de los casos, cuando estamos configurando características de la red local, estaremos centrados en alguno de los adaptadores de red disponibles. En estos casos puede ser interesante limitar la salida del comando **ifconfig** para que nos muestra únicamente la información de dicho adaptador. Esta operación es tan sencilla como poner el nombre del adaptador a continuación del comando. Por ejemplo:
 
+```bash
 ifconfig enp0s3
+```
 
 Como ves, la salida es idéntica a la de la imagen anterior, pero informando únicamente del adaptador especificado.
 
 [![el-comando-ifconfig-en-Ubuntu-003](http://somebooks.es/wp-content/uploads/2018/03/el-comando-ifconfig-en-Ubuntu-003.png)](http://somebooks.es/wp-content/uploads/2018/03/el-comando-ifconfig-en-Ubuntu-003.png "el-comando-ifconfig-en-Ubuntu-003")
 
+---
 ## Otras operaciones frecuentes con ifconfig
 
-El comando **ifconfig** no se limita únicamente a ofrecernos información. Con él, también podemos establecer, de forma temporal, valores para la configuración de la red. veamos algunos ejemplos:
+El comando `ifconfig` no se limita únicamente a ofrecernos información. Con él, también podemos establecer, de forma temporal, valores para la configuración de la red. veamos algunos ejemplos:
 
 1. Para deshabilitar un adaptador de red, escribiremos algo así:
-    
-    sudo ifconfig enp0s3 down
-    
-    Como ves, en este caso necesitaremos privilegios administrativos, ya que nuestra actividad puede afectar a todo el sistema.
-    
-    Después del comando, escribiremos la contraseña de administración.
-    
-    [![el-comando-ifconfig-en-Ubuntu-004](http://somebooks.es/wp-content/uploads/2018/03/el-comando-ifconfig-en-Ubuntu-004.png)](http://somebooks.es/wp-content/uploads/2018/03/el-comando-ifconfig-en-Ubuntu-004.png "el-comando-ifconfig-en-Ubuntu-004")
-    
-    Si quieres comprobar que, efectivamente, el adaptador de red se ha deshabilitado, basta con volver a ejecutar **ifconfig**:
-    
-    ifconfig
-    
-    En la salida no se muestra información sobre el adaptador deshabilitado.
-    
-    [![el-comando-ifconfig-en-Ubuntu-005](http://somebooks.es/wp-content/uploads/2018/03/el-comando-ifconfig-en-Ubuntu-005.png)](http://somebooks.es/wp-content/uploads/2018/03/el-comando-ifconfig-en-Ubuntu-005.png "el-comando-ifconfig-en-Ubuntu-005")
-    
-    Aunque, si quisiéramos mostrar todos los adaptadores, incluidos los deshabilitados, bastaría con usar la opción **-a**:
-    
-    ifconfig -a
-    
-    Ahora vemos los detalles de ambos adaptadores
-    
-    [![el-comando-ifconfig-en-Ubuntu-011](http://somebooks.es/wp-content/uploads/2018/03/el-comando-ifconfig-en-Ubuntu-011.png)](http://somebooks.es/wp-content/uploads/2018/03/el-comando-ifconfig-en-Ubuntu-011.png "el-comando-ifconfig-en-Ubuntu-011")
-    
-2. Para volver a habilitar un adaptador de red deshabilitado, basta con escribir algo como esto:
-    
-    sudo ifconfig enp0s3 up
-    
-    Como al desactivarlo, volvemos a necesitar privilegios administrativos.
-    
-    Basta con escribir el comando y pulsar la tecla Intro.
-    
-    [![el-comando-ifconfig-en-Ubuntu-006](http://somebooks.es/wp-content/uploads/2018/03/el-comando-ifconfig-en-Ubuntu-006.png)](http://somebooks.es/wp-content/uploads/2018/03/el-comando-ifconfig-en-Ubuntu-006.png "el-comando-ifconfig-en-Ubuntu-006")
-    
-3. Asignar una nueva dirección IP al adaptador de red:
-    
-    sudo ifconfig enp0s3 192.168.1.10
-    
-    Como ves, sólo necesitamos incluir la nueva _dirección IP_ a continuación del nombre del adaptador.
-    
-    De nuevo, escribimos el comando y pulsar la tecla Intro.
-    
-    [![el-comando-ifconfig-en-Ubuntu-007](http://somebooks.es/wp-content/uploads/2018/03/el-comando-ifconfig-en-Ubuntu-007.png)](http://somebooks.es/wp-content/uploads/2018/03/el-comando-ifconfig-en-Ubuntu-007.png "el-comando-ifconfig-en-Ubuntu-007")
-    
-4. Si lo que necesitamos es asignar una nueva máscara de red al adaptador, habrá que incluir la palabra **netmask**:
-    
-    sudo ifconfig enp0s3 netmask 255.255.255.0
-    
-    Como antes, escribimos el comando y pulsar la tecla Intro.
-    
-    [![el-comando-ifconfig-en-Ubuntu-008](http://somebooks.es/wp-content/uploads/2018/03/el-comando-ifconfig-en-Ubuntu-008.png)](http://somebooks.es/wp-content/uploads/2018/03/el-comando-ifconfig-en-Ubuntu-008.png "el-comando-ifconfig-en-Ubuntu-008")
-    
-5. Y si lo que queremos es asignar una nueva dirección de difusión (broadcast) al adaptador de red, usaremos la palabra **broadcast**:
-    
-    sudo ifconfig enp0s3 broadcast 192.168.1.255
-    
-    Una vez más, escribimos el comando y pulsar la tecla Intro.
-    
-    [![el-comando-ifconfig-en-Ubuntu-009](http://somebooks.es/wp-content/uploads/2018/03/el-comando-ifconfig-en-Ubuntu-009.png)](http://somebooks.es/wp-content/uploads/2018/03/el-comando-ifconfig-en-Ubuntu-009.png "el-comando-ifconfig-en-Ubuntu-009")
-    
-6. Incluso podemos realizar las tres operaciones anteriores en un solo paso:
-    
-    sudo ifconfig enp0s3 192.168.1.10 netmask 255.255.255.0 broadcast 192.168.1.255
-    
-    Texto
-    
-    [![el-comando-ifconfig-en-Ubuntu-010](http://somebooks.es/wp-content/uploads/2018/03/el-comando-ifconfig-en-Ubuntu-010.png)](http://somebooks.es/wp-content/uploads/2018/03/el-comando-ifconfig-en-Ubuntu-010.png "el-comando-ifconfig-en-Ubuntu-010")
-    
+```bash
+sudo ifconfig enp0s3 down
+```
 
+Como ves, en este caso necesitaremos privilegios administrativos, ya que nuestra actividad puede afectar a todo el sistema.
+
+Después del comando, escribiremos la contraseña de administración.
+
+[![el-comando-ifconfig-en-Ubuntu-004](http://somebooks.es/wp-content/uploads/2018/03/el-comando-ifconfig-en-Ubuntu-004.png)](http://somebooks.es/wp-content/uploads/2018/03/el-comando-ifconfig-en-Ubuntu-004.png "el-comando-ifconfig-en-Ubuntu-004")
+
+Si quieres comprobar que, efectivamente, el adaptador de red se ha deshabilitado, basta con volver a ejecutar **ifconfig**:
+
+```bash
+ifconfig
+```
+
+En la salida no se muestra información sobre el adaptador deshabilitado.
+
+[![el-comando-ifconfig-en-Ubuntu-005](http://somebooks.es/wp-content/uploads/2018/03/el-comando-ifconfig-en-Ubuntu-005.png)](http://somebooks.es/wp-content/uploads/2018/03/el-comando-ifconfig-en-Ubuntu-005.png "el-comando-ifconfig-en-Ubuntu-005")
+
+Aunque, si quisiéramos mostrar todos los adaptadores, incluidos los deshabilitados, bastaría con usar la opción **-a**:
+
+```bash
+ifconfig -a
+```
+
+Ahora vemos los detalles de ambos adaptadores
+
+[![el-comando-ifconfig-en-Ubuntu-011](http://somebooks.es/wp-content/uploads/2018/03/el-comando-ifconfig-en-Ubuntu-011.png)](http://somebooks.es/wp-content/uploads/2018/03/el-comando-ifconfig-en-Ubuntu-011.png "el-comando-ifconfig-en-Ubuntu-011")
+
+2. Para volver a habilitar un adaptador de red deshabilitado, basta con escribir algo como esto:
+
+```bash
+sudo ifconfig enp0s3 up
+```
+
+Como al desactivarlo, volvemos a necesitar privilegios administrativos.
+
+Basta con escribir el comando y pulsar la tecla Intro.
+
+[![el-comando-ifconfig-en-Ubuntu-006](http://somebooks.es/wp-content/uploads/2018/03/el-comando-ifconfig-en-Ubuntu-006.png)](http://somebooks.es/wp-content/uploads/2018/03/el-comando-ifconfig-en-Ubuntu-006.png "el-comando-ifconfig-en-Ubuntu-006")
+
+3. Asignar una nueva dirección IP al adaptador de red:
+
+```bash
+sudo ifconfig enp0s3 192.168.1.10
+```
+
+Como ves, sólo necesitamos incluir la nueva _dirección IP_ a continuación del nombre del adaptador.
+
+De nuevo, escribimos el comando y pulsar la tecla Intro.
+
+[![el-comando-ifconfig-en-Ubuntu-007](http://somebooks.es/wp-content/uploads/2018/03/el-comando-ifconfig-en-Ubuntu-007.png)](http://somebooks.es/wp-content/uploads/2018/03/el-comando-ifconfig-en-Ubuntu-007.png "el-comando-ifconfig-en-Ubuntu-007")
+
+4. Si lo que necesitamos es asignar una nueva máscara de red al adaptador, habrá que incluir la palabra **netmask**:
+
+```bash
+sudo ifconfig enp0s3 netmask 255.255.255.0
+```
+
+Como antes, escribimos el comando y pulsar la tecla Intro.
+
+[![el-comando-ifconfig-en-Ubuntu-008](http://somebooks.es/wp-content/uploads/2018/03/el-comando-ifconfig-en-Ubuntu-008.png)](http://somebooks.es/wp-content/uploads/2018/03/el-comando-ifconfig-en-Ubuntu-008.png "el-comando-ifconfig-en-Ubuntu-008")
+
+5. Y si lo que queremos es asignar una nueva dirección de difusión (broadcast) al adaptador de red, usaremos la palabra **broadcast**:
+
+```bash
+sudo ifconfig enp0s3 broadcast 192.168.1.255
+```
+
+Una vez más, escribimos el comando y pulsar la tecla Intro.
+
+[![el-comando-ifconfig-en-Ubuntu-009](http://somebooks.es/wp-content/uploads/2018/03/el-comando-ifconfig-en-Ubuntu-009.png)](http://somebooks.es/wp-content/uploads/2018/03/el-comando-ifconfig-en-Ubuntu-009.png "el-comando-ifconfig-en-Ubuntu-009")
+
+6. Incluso podemos realizar las tres operaciones anteriores en un solo paso:
+
+```bash
+sudo ifconfig enp0s3 192.168.1.10 netmask 255.255.255.0 broadcast 192.168.1.255
+```
+
+[![el-comando-ifconfig-en-Ubuntu-010](http://somebooks.es/wp-content/uploads/2018/03/el-comando-ifconfig-en-Ubuntu-010.png)](http://somebooks.es/wp-content/uploads/2018/03/el-comando-ifconfig-en-Ubuntu-010.png "el-comando-ifconfig-en-Ubuntu-010")
+
+---
 ## Otros valores
 
 También podemos ajustar algunos parámetros más avanzados, como el valor MTU que, como dijimos al principio, indica el tamaño en octetos de los paquetes más grandes que se transmiten. El valor predeterminado es 1500, pero si quisiéramos cambiarlo por 9000, bastaría con escribir:
 
+```bash
 sudo ifconfig enp0s3 mtu 9000
+```
 
-Texto
 
 [![el-comando-ifconfig-en-Ubuntu-012](http://somebooks.es/wp-content/uploads/2018/03/el-comando-ifconfig-en-Ubuntu-012.png)](http://somebooks.es/wp-content/uploads/2018/03/el-comando-ifconfig-en-Ubuntu-012.png "el-comando-ifconfig-en-Ubuntu-012")
 
@@ -172,7 +195,9 @@ Cuando el adaptador de red actúa en modo promiscuo, el adaptador de red acepta 
 
 Pues bien, para poner el adaptador de red en modo promiscuo, sólo tenemos que ejecutar el siguiente comando:
 
+```bash
 sudo ifconfig enp0s3 promisc
+```
 
 Por defecto, cuando una tarjeta de red recibe un paquete, comprueba si el paquete pertenece a sí mismo. Si no, la tarjeta de interfaz normalmente deja caer el paquete. Pero en modo promiscuo, la tarjeta no suelta el paquete. En cambio, aceptará todos los paquetes que fluyan a través de la tarjeta de red.o
 
@@ -182,4 +207,11 @@ Como en los casos anteriores, para ejecutarlo necesitaremos privilegios administ
 
 Cuando necesitemos devolver el adaptador a su configuración normal, bastará con ejecutar lo siguiente:
 
+```bash
 sudo ifconfig enp0s3 -promisc
+```
+
+---
+
+
+

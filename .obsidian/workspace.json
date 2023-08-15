@@ -36,36 +36,24 @@
             }
           },
           {
-            "id": "412736bd6171afc2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux Hacking/Kali Linux post-instalacion.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dcad560c6a5fe4b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Django Info/Deploy Django/deploy_pythonanywhere_django3.2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "24cf57d06b30d2c7",
+            "id": "8f9ec62ac02e99d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Django Info/Datos iniciales GitHub.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "57763087f91d6b39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Django Info/Django - Información de Configuración.md",
                 "mode": "source",
                 "source": false
               }
@@ -138,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Django Info/Deploy Django/deploy_pythonanywhere_django3.2.md",
+                "file": "Django Info/Django - Información de Configuración.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Django Info/Deploy Django/deploy_pythonanywhere_django3.2.md",
+                "file": "Django Info/Django - Información de Configuración.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Django Info/Deploy Django/deploy_pythonanywhere_django3.2.md"
+                "file": "Django Info/Django - Información de Configuración.md"
               }
             }
           }
@@ -199,53 +187,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dcad560c6a5fe4b2",
+  "active": "57763087f91d6b39",
   "lastOpenFiles": [
+    "Django Info/imgs_django/django_process.gif",
+    "Django Info/imgs_django/modelo_vista_template.png",
+    "Django Info/imgs_django/django_virtualenv.png",
+    "Django Info/imgs_django/django_succesful_installation.png",
+    "Django Info/imgs_django/django_manage.py_runserver.png",
+    "Django Info/imgs_django/django_installed_apps.png",
+    "Django Info/imgs_django",
+    "Django Info/Carpeta sin título",
+    "Comandos bash/Comando ifconfig.md",
+    "Home.md",
+    "Linux Hacking/Vínculos y Herramientas OSINT.md",
     "Django Info/Datos iniciales GitHub.md",
+    "Comandos bash/Comando man.md",
+    "Comandos bash/Comando ssh.md",
+    "Linux Hacking/Escanear puertos.md",
+    "Linux Hacking/Herramienta Metasploit.md",
+    "Linux Hacking/Herramienta theHarvester.md",
+    "Comandos bash/Comando netcat.md",
+    "Comandos bash/Comando nmap.md",
+    "Comandos bash/Comando ping.md",
+    "Comandos bash/Comando systemctl.md",
+    "Comandos bash/Comando grep.md",
+    "Comandos bash/Comando du.md",
+    "Comandos bash/Comando df.md",
+    "Comandos bash/Comando crontab.md",
+    "Linux Hacking/Enumerar equipos en una red (nmap).md",
+    "Linux Hacking/LLMs Prompts ChatGPT.md",
+    "Linux Hacking/Kali Linux post-instalacion.md",
+    "varios/Sugerencias de estructura en Obsidian.md",
+    "imgs/img_varias/obsidian_cargar_nueva_boveda.png",
+    "Django Info/django_process.gif",
     "Django Info/Deploy Django/deploy_pythonanywhere_django3.2.md",
     "Django Info/Deploy Django/migrar_bd_sqlite_mysql.md",
     "Django Info/Advanced Django Cheat Sheet.md",
     "Django Info/Django - Información de Configuración.md",
-    "Django Info/Deploy Django/deploy_cpanel_django3.2.md",
-    "Linux Hacking/Kali Linux post-instalacion.md",
-    "varios/github_info.md",
-    "Home.md",
-    "Linux Hacking/Vínculos y Herramientas OSINT.md",
-    "Linux Hacking/Notas clase taller ciberseguridad - 10.08.2023.md",
-    "Linux Hacking/Ubuntu Command Line Tips.md",
-    "Linux Hacking/Kali Tools.md",
-    "Linux Hacking/Escanear puertos.md",
-    "Comandos bash/Comando systemctl.md",
-    "Linux Hacking/Conectarse usando The Onion Router.md",
-    "Linux Hacking/OpenVAS.md",
-    "Linux Hacking/LLMs Prompts ChatGPT.md",
     "imgs/img_conceptos/HTTP_REQUEST_METHODS.jpeg",
     "imgs/img_conceptos",
     "imgs/img_varias",
-    "imgs/obsidian_cargar_nueva_boveda.png",
     "imgs/img_headers",
-    "readme.md",
-    "Comandos bash/Comando history.md",
-    "Linux Hacking/Configuración de GIT con GitHub.md",
     "gitignore.txt",
-    "Ciberseguridad.md",
-    "Comandos bash/Comando crontab.md",
-    "Comandos bash/Comando netcat.md",
-    "Linux Hacking/Atacar Metasploitable 2.md",
-    "Comandos bash/Comando ifconfig.md",
     "notas_varias/del",
     "Bash + Tools/notas_clases_unab",
     "Normativa/Untitled",
     "imgs/img_headers/header_keyboard.jpg",
     "imgs/img_headers/header_kali.jpg",
-    "imgs/img_headers/header_kali_term.jpg",
-    "Comandos bash",
-    "Linux Hacking/Ubuntu Touch",
-    "imgs/img_headers/header_ubtouch.jpg",
-    "imgs/img_headers/header_tux.jpg",
-    "imgs/img_headers/header_terminal.jpg",
-    "imgs/img_headers/header_server.jpg",
-    "imgs/img_headers/header_ley.jpg",
-    "varios/header_base.xcf"
+    "Comandos bash"
   ]
 }

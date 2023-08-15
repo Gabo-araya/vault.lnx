@@ -1,5 +1,5 @@
 ![[header_hacking.jpg]]
-# metasploit
+# `metasploit`
 
 ---
 **Tags:** #info #hacking #tool #kali #linux 

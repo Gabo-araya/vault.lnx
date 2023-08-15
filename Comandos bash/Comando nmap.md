@@ -1,5 +1,5 @@
 ![[header_hacking.jpg]]
-# nmap
+# Comando `nmap`
 
 ---
 **Tags:** #info #hacking #tool #kali #linux #bash

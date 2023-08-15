@@ -1,5 +1,5 @@
 ![[header_terminal.jpg]]
-#  `systemctl`
+# Comando  `systemctl`
 
 ---
 **Tags:** #info #bash #linux 

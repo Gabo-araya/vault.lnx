@@ -1,5 +1,5 @@
 ![[header_hacking.jpg]]
-# Netcat 
+# Comando `netcat`
 
 ---
 **Tags:** #info #hacking #tool #kali #linux #python #bash #chatGPT

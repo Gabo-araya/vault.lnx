@@ -1,6 +1,6 @@
 
 ![[header_terminal.jpg]]
-# man
+# Comando `man`
 
 ---
 **Tags:** #info #hacking #tool #kali #linux #bash
