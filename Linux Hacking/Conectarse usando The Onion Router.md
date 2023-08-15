@@ -97,6 +97,8 @@ socks5 127.0.0.1 9050
 ---
 ## 4. Trabajar con el servicio `tor.service`
 
+> [!tip] Revisar la guía de [[Comando systemctl]]
+
 Primero se debe **habilitar** el servicio `tor`
 ```bash
 sudo systemctl enable tor.service

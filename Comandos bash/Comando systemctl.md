@@ -6,7 +6,7 @@
 **Fecha creación:** 12.08.2023
 **Fecha ultima modificación:** 12.08.2023
 
-> [!info] Volver a [[Home]] | [[Ciberseguridad]]
+> [!info] Volver a [[Home]] 
 
 ---
 

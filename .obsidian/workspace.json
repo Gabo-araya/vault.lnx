@@ -28,23 +28,11 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking/Vínculos y Herramientas OSINT.md",
+                "file": "Linux Hacking/Vínculos y Herramientas OSINT.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true
-            }
-          },
-          {
-            "id": "f7dbf7067a8df457",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bash + Tools/Ubuntu Command Line Tips.md",
-                "mode": "source",
-                "source": false
-              }
             }
           },
           {
@@ -53,50 +41,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking/Kali Linux post-instalacion.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "68256bddedef603c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bash + Tools/notas_clases_unab/Notas clase taller ciberseguridad - 10.08.2023.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e9b780e861b89add",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hacking/Conectarse usando The Onion Router.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "573f9887332072e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bash + Tools/notas_clases_unab/Notas clase taller ciberseguridad - 10.08.2023.md",
+                "file": "Linux Hacking/Kali Linux post-instalacion.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -125,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[token",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -162,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bash + Tools/notas_clases_unab/Notas clase taller ciberseguridad - 10.08.2023.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bash + Tools/notas_clases_unab/Notas clase taller ciberseguridad - 10.08.2023.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bash + Tools/notas_clases_unab/Notas clase taller ciberseguridad - 10.08.2023.md"
+                "file": "Home.md"
               }
             }
           }
@@ -223,53 +174,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "573f9887332072e9",
+  "active": "3a64e7607e3c56ea",
   "lastOpenFiles": [
-    "readme.md",
+    "Linux Hacking/Vínculos y Herramientas OSINT.md",
+    "Linux Hacking/Kali Linux post-instalacion.md",
     "Home.md",
-    "Hacking/Conectarse usando The Onion Router.md",
-    "Hacking/Kali Linux post-instalacion.md",
-    "Bash + Tools/Comando history.md",
-    "Bash + Tools/notas_clases_unab/Notas clase taller ciberseguridad - 10.08.2023.md",
-    "Bash + Tools/Kali Tools.md",
-    "Django Info/Deploy Django/deploy_pythonanywhere_django3.2.md",
+    "Linux Hacking/Notas clase taller ciberseguridad - 10.08.2023.md",
+    "Linux Hacking/Ubuntu Command Line Tips.md",
+    "Linux Hacking/Kali Tools.md",
+    "Linux Hacking/Escanear puertos.md",
+    "Comandos bash/Comando systemctl.md",
+    "Linux Hacking/Conectarse usando The Onion Router.md",
+    "Linux Hacking/OpenVAS.md",
+    "Linux Hacking/LLMs Prompts ChatGPT.md",
+    "imgs/img_conceptos/HTTP_REQUEST_METHODS.jpeg",
+    "imgs/img_conceptos",
+    "imgs/img_varias",
+    "imgs/obsidian_cargar_nueva_boveda.png",
     "varios/github_info.md",
-    "Bash + Tools/Configuración de GIT con GitHub.md",
+    "imgs/img_headers",
+    "readme.md",
+    "Comandos bash/Comando history.md",
+    "Django Info/Deploy Django/deploy_pythonanywhere_django3.2.md",
+    "Linux Hacking/Configuración de GIT con GitHub.md",
     "gitignore.txt",
-    "Hacking/Vínculos y Herramientas OSINT.md",
-    "Bash + Tools/Ubuntu Command Line Tips.md",
     "Ciberseguridad.md",
-    "Bash + Tools/Comando crontab.md",
-    "Bash + Tools/Comando netcat.md",
-    "Bash + Tools/Comando systemctl.md",
-    "Hacking/LLMs Prompts ChatGPT.md",
-    "Hacking/Atacar Metasploitable 2.md",
-    "Bash + Tools/Comando ifconfig.md",
+    "Comandos bash/Comando crontab.md",
+    "Comandos bash/Comando netcat.md",
+    "Linux Hacking/Atacar Metasploitable 2.md",
+    "Comandos bash/Comando ifconfig.md",
     "varios/template_minuta.md",
     "Deploy RPi/infraestructura_LEMP.md",
-    "Bash + Tools/Comando man.md",
+    "Comandos bash/Comando man.md",
     "license.md",
-    "Hacking/Ubuntu Touch/Ubuntu Touch.md",
-    "Bash + Tools/Comando nmap.md",
-    "Bash + Tools/Comando ping.md",
+    "Linux Hacking/Ubuntu Touch/Ubuntu Touch.md",
     "notas_varias/del",
     "Bash + Tools/notas_clases_unab",
     "Normativa/Untitled",
-    "imgs/obsidian_cargar_nueva_boveda.png",
-    "varios/header_keyboard.jpg",
-    "varios/header_kali.jpg",
-    "varios/header_kali_term.jpg",
-    "imgs/HTTP_REQUEST_METHODS.jpeg",
-    "Bash + Tools",
-    "Hacking/Ubuntu Touch",
-    "varios/header_ubtouch.jpg",
-    "varios/header_tux.jpg",
-    "varios/header_terminal.jpg",
-    "varios/header_server.jpg",
-    "varios/header_ley.jpg",
-    "varios/header_base.xcf",
-    "varios",
-    "VARIOS/header_base.xcf",
-    "VARIOS"
+    "imgs/img_headers/header_keyboard.jpg",
+    "imgs/img_headers/header_kali.jpg",
+    "imgs/img_headers/header_kali_term.jpg",
+    "Comandos bash",
+    "Linux Hacking/Ubuntu Touch",
+    "imgs/img_headers/header_ubtouch.jpg",
+    "imgs/img_headers/header_tux.jpg",
+    "imgs/img_headers/header_terminal.jpg",
+    "imgs/img_headers/header_server.jpg",
+    "imgs/img_headers/header_ley.jpg",
+    "varios/header_base.xcf"
   ]
 }
