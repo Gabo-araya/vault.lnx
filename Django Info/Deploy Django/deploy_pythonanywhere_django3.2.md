@@ -57,7 +57,7 @@ Abrir una nueva consola de bash
 
 Generar token en github para el servidor (no usar este)
 ```
-ghp_gfpEiMWfNyrTfZOT8oa4STKdfxsf7y6YkP3QL3v3
+ghp_TOKEN_GENERADO_EN_GITHUB
 ```
 
 Clonar repositorio privado de github
@@ -66,7 +66,7 @@ git clone https://[username]:[token]@github.com/[username]/[repo]
 ```
 
 ```
-git clone https://Gabo-araya:ghp_gfpEiMWfNyrTZOT8o4STKfxf7y6YkP3QL3v3@github.com/Gabo-araya/repositorio
+git clone https://Gabo-araya:ghp_TOKEN_GENERADO_EN_GITHUB@github.com/Gabo-araya/repositorio
 ```
 
 Instalar los requerimientos
@@ -89,7 +89,7 @@ Activar entorno virtual
 
 * Crear nueva web app:
 	- [https://www.pythonanywhere.com/user/gaboaraya/webapps/](https://www.pythonanywhere.com/user/gaboaraya/webapps/)
-	- Nombre: `gaboaraya.pythonanywhere.com`
+	- Nombre: `proyecto.pythonanywhere.com`
 * **Paso: Crear nuevo framework de python**
 	- Escoger **configuración manual**
 	- Manual Configuration

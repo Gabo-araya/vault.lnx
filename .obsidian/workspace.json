@@ -46,8 +46,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "dcad560c6a5fe4b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Django Info/Deploy Django/deploy_pythonanywhere_django3.2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "24cf57d06b30d2c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Django Info/Datos iniciales GitHub.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -113,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Django Info/Deploy Django/deploy_pythonanywhere_django3.2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Django Info/Deploy Django/deploy_pythonanywhere_django3.2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Django Info/Deploy Django/deploy_pythonanywhere_django3.2.md"
               }
             }
           }
@@ -174,11 +199,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3a64e7607e3c56ea",
+  "active": "dcad560c6a5fe4b2",
   "lastOpenFiles": [
-    "Linux Hacking/Vínculos y Herramientas OSINT.md",
+    "Django Info/Datos iniciales GitHub.md",
+    "Django Info/Deploy Django/deploy_pythonanywhere_django3.2.md",
+    "Django Info/Deploy Django/migrar_bd_sqlite_mysql.md",
+    "Django Info/Advanced Django Cheat Sheet.md",
+    "Django Info/Django - Información de Configuración.md",
+    "Django Info/Deploy Django/deploy_cpanel_django3.2.md",
     "Linux Hacking/Kali Linux post-instalacion.md",
+    "varios/github_info.md",
     "Home.md",
+    "Linux Hacking/Vínculos y Herramientas OSINT.md",
     "Linux Hacking/Notas clase taller ciberseguridad - 10.08.2023.md",
     "Linux Hacking/Ubuntu Command Line Tips.md",
     "Linux Hacking/Kali Tools.md",
@@ -191,11 +223,9 @@
     "imgs/img_conceptos",
     "imgs/img_varias",
     "imgs/obsidian_cargar_nueva_boveda.png",
-    "varios/github_info.md",
     "imgs/img_headers",
     "readme.md",
     "Comandos bash/Comando history.md",
-    "Django Info/Deploy Django/deploy_pythonanywhere_django3.2.md",
     "Linux Hacking/Configuración de GIT con GitHub.md",
     "gitignore.txt",
     "Ciberseguridad.md",
@@ -203,11 +233,6 @@
     "Comandos bash/Comando netcat.md",
     "Linux Hacking/Atacar Metasploitable 2.md",
     "Comandos bash/Comando ifconfig.md",
-    "varios/template_minuta.md",
-    "Deploy RPi/infraestructura_LEMP.md",
-    "Comandos bash/Comando man.md",
-    "license.md",
-    "Linux Hacking/Ubuntu Touch/Ubuntu Touch.md",
     "notas_varias/del",
     "Bash + Tools/notas_clases_unab",
     "Normativa/Untitled",

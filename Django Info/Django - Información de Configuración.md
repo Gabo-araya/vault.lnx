@@ -1,4 +1,4 @@
-![[header.jpg]]
+![[header_keyboard.jpg]]
 # Django - Información de Configuración
 
 ---

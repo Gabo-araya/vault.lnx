@@ -3,16 +3,170 @@
 
 _Estos son los datos iniciales de GitHub._
 
-***
+---
 Tags:  #github #codigo #linux #readme #ampliar #arreglar 
-***
 
-## **Create a new repository on the command line**
+---
+## 1. Configurar git local con github por primera vez
+
+1. Instalar git
+```bash
+sudo apt install git
+```
+
+2. Mostrar la versión de git
+```bash
+git --version
+```
+
+3. Configuración global de usuario de github
+```bash
+git config --global user.name "Github-USER"
+```
+
+4. Configuración global de email de github
+```bash
+git config --global user.email "usuario@mail.com"
+```
+
+5. Mostrar lista de configuraciones de git
+```bash
+git config --list
+```
+
+6. Crear una clave ssh y agregarla al agente
+```bash
+ssh-keygen -t ed25519 -C "usuario@mail.com"
+```
+
+	6.1 Agregar el token de la cuenta de github
+```bash
+ghp_TOKEN_GENERADO_EN_GITHUB
+```
+
+	6.2 Se debe guardar en el archivo `/home/usuario/.ssh/id_ed25519`
+```bash
+/home/usuario/.ssh/id_ed25519
+```
+
+	6.3 El resultado es el siguiente
+```bash
+usuario@host:~$ ssh-keygen -t ed25519 -C "usuario@mail.com"
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/home/usuario/.ssh/id_ed25519): /home/usuario/.ssh/id_ed25519
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/usuario/.ssh/id_ed25519
+Your public key has been saved in /home/usuario/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:ZFdnJwbJ3KlNxBu/oJDs3KlNxSWJVJd13ZFdn[REDACTED] usuario@mail.com
+The key\'s randomart image is:
++--[ED25519 256]--+
+|    F    . .E**=+|
+|       o =.o+XB+O|
+|   X     X ..o+O+|
+|  . .  * o . .+.o|
+|      . S .  o.. |
+|     o o      .  |
+|    . o o        |
+|       o .     8 |
+|   (    .        |
++----[SHA256]-----+
+```
+
+7. Iniciar el agente ssh en segundo plano
+```shell
+$ eval "$(ssh-agent -s)"
+> Agent pid 59566
+```
+
+8. Agregar la llave privada al ssh-agent
+```shell
+ssh-add ~/.ssh/id_ed25519
+```
+
+9. Agregar la llave ssh pública a la configuración de github
+```shell
+$ cat ~/.ssh/id_ed25519.pub
+# Then select and copy the contents of the id_ed25519.pub file
+# displayed in the terminal to your clipboard
+```
+
+10. Copiar la salida del comando anterior y agregarla como nueva llave SSH en github: [https://github.com/settings/keys](https://github.com/settings/keys)
+
+
+---
+## 2. Subir contenidos a github por primera vez
+
+Ingresar a la carpeta que queremos subir a github
+```bash
+cd /home/usuario/obsidian/
+```
+
+Iniciar git en la carpeta
+```bash
+git init
+```
+
+Conocer el status de git en la carpeta
+```bash
+git status
+```
+
+Agregar todos los archivos al commit
+```bash
+git add .
+```
+
+Enviar el commit con un mensaje
+```bash
+git commit -m "Notas iniciales"
+```
+
+Cambiar a rama main
+```bash
+git branch -M main
+```
+
+Agregar origen para el repositorio
+```bash
+git remote add origin git@github.com:Github-USER/obsidian.git
+```
+
+Hacer push de los cambios al repositorio de github
+```bash
+git push -u origin main
+```
+
+---
+## 3. Datos iniciales
+### 3.1 Create a new repository on the command line
+
+	echo "# obsidian" >> README.md
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git branch -M main
+	git remote add origin https://github.com/Github-USER/obsidian.git
+	git push -u origin main
+
+	git remote set-url origin https://github.com/Github-USER/obsidian.git
+
+### 3.2 Push an existing repository from the command line
+
+	git remote add origin git@github.com:Github-USER/obsidian.git
+	[OLD] git remote add origin https://github.com/Github-USER/obsidian.git
+	git branch -M main
+	git push -u origin main
+
+---
+## 4. Desglose de comandos
+### 4.1 Create a new repository on the command line
 
 * Crear un archivo README.md
 
 ```
-echo "# gaboaraya" >> README.md
+echo "# obsidian" >> README.md
 ```
 
 * Inicializar un repositorio git
@@ -42,7 +196,7 @@ git branch -M main
   * Agregar el origen externo de GitHub
 
 ```
-git remote add origin https://github.com/Gabo-araya/gaboaraya.git
+git remote add origin https://github.com/Github-USER/obsidian.git
 ```
 
   * Enviar los cambios de la rama "main" del repositorio git local a la rama "main" del repositorio en GitHub
@@ -51,12 +205,12 @@ git remote add origin https://github.com/Gabo-araya/gaboaraya.git
 git push -u origin main
 ```
 
-## **Push an existing repository from the command line**
+### 4.2 Push an existing repository from the command line
 
 * Agregar el origen externo de GitHub
 
 ```
-git remote add origin https://github.com/Gabo-araya/gaboaraya.git
+git remote add origin https://github.com/Github-USER/obsidian.git
 ```
 
 * Cambiarse a la rama "main"
@@ -73,29 +227,4 @@ git push -u origin main
 
 ---
 
-## Datos iniciales GitHub
-
-Estos son los datos iniciales de GitHub
-
-### Create a new repository on the command line
-
-	echo "# obsidian" >> README.md
-	git init
-	git add README.md
-	git commit -m "first commit"
-	git branch -M main
-	git remote add origin https://github.com/Gabo-araya/obsidian.git
-	git push -u origin main
-	
-	git remote set-url origin https://github.com/Gabo-araya/obsidian.git
-	Token: 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
-
-### Push an existing repository from the command line
-
-	git remote add origin git@github.com:Gabo-araya/obsidian.git
-	[OLD] git remote add origin https://github.com/Gabo-araya/obsidian.git
-	git branch -M main
-	git push -u origin main
-
----
 

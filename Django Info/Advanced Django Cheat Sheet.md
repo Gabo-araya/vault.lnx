@@ -1,9 +1,10 @@
+![[header_keyboard.jpg]]
 # Advanced Django Cheat Sheet
 
 [https://github.com/ju-c/advanced-django-cheat-sheet/blob/main/README.md](https://github.com/ju-c/advanced-django-cheat-sheet/blob/main/README.md)
 
 ***
-Tags:  #readme #django #python
+Tags:  #readme #django #python #arreglar 
 ***
 
 Be aware it's not an exhaustive list.
