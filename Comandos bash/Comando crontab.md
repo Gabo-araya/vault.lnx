@@ -18,7 +18,7 @@ La automatización es uno de los aspectos clave de cualquier sistema, ya sea un 
 
 En este tutorial, vamos a cubrir la sintaxis Crontab, veremos un resumen de las diferencias entre cron job, cron y crontab, y te mostraremos algunos casos de uso útiles cron jobs para un sistema operativo basado en Linux.
 
-### 1.2 ¿Qué es Crontab y Cron Job?
+### 1.1 ¿Qué es Crontab y Cron Job?
 
 En cuanto a los cron jobs, cabe destacar tres términos:
 
@@ -26,11 +26,11 @@ Cron daemon (crond) o simplemente cron es un ejecutable que permite a los usuari
 
 Cron job es cualquier tarea que un usuario programe utilizando cron.
 
-### 1.3 ¿Qué es la sintaxis Crontab?
+### 1.2 ¿Qué es la sintaxis Crontab?
 
 La tabla cron o Crontab es un archivo que contiene todas las programaciones de las tareas cron que un usuario desea ejecutar regularmente. Los comandos se escriben uno por línea y ordenan al cron daemon que ejecute una tarea a una hora determinada.
 
-### 1.4 Formato y valores de Crontab
+### 1.3 Formato y valores de Crontab
 
 Para que el cron daemon comprenda correctamente las instrucciones, debe utilizarse la sintaxis crontab correcta. La sintaxis de crontab consta de cinco campos. Cada uno de ellos puede rellenarse con cualquiera de los valores que se muestran en la siguiente tabla:
 
@@ -41,7 +41,7 @@ Para que el cron daemon comprenda correctamente las instrucciones, debe utilizar
 - **Mes**	1-12
 - **Día de la semana**	0-6. 0 representa el domingo. En algunos sistemas, el valor 7 representa el domingo.
 
-### 1.5 Comando y Orden a ejecutar
+### 1.4 Comando y Orden a ejecutar
 
 Aparte de los valores de crontab posibles, es necesario memorizar algunos caracteres especiales:
 

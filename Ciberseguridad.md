@@ -14,3 +14,19 @@
 >* [[Leyes Ciberseguridad Chile]]
 
 ---
+## Cursos ciberseguridad
+
+### EC-COUNCIL
+- https://www.eccouncil.org/train-certify/essentials/
+- https://www.eccouncil.org/academia/ethical-hacking-essentials-ehe/
+- [https://codered.eccouncil.org/](https://codered.eccouncil.org/)
+- https://codered.eccouncil.org/your-portal/home?logged=true
+
+### Otras certificaciones 
+- https://skillsforall.com/es/career-path/cybersecurity?courseLang=es-XL
+- https://hack4u.io/cursos/introduccion-al-hacking/
+- https://learn.microsoft.com/es-es/training/browse/?terms=ciber
+- https://learn.microsoft.com/es-es/training/paths/describe-basic-concepts-of-cybersecurity/
+- https://grow.google/certificates/cybersecurity/#?modal_active=none
+- 
+

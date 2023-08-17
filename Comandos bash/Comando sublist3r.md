@@ -19,7 +19,6 @@
 ## Casos de uso y ejemplos de `sublist3r`
 
 1. **Descubrimiento de subdominios:**
-
    ```bash
    sublist3r -d example.com
    ```
@@ -27,7 +26,6 @@
    Este comando descubrirá subdominios relacionados con `example.com` utilizando fuentes públicas en línea.
 
 2. **Guardar resultados en un archivo:**
-
    ```bash
    sublist3r -d example.com -o resultados.txt
    ```
@@ -35,7 +33,6 @@
    Guarda los resultados del descubrimiento de subdominios en el archivo `resultados.txt`.
 
 3. **Utilizar múltiples motores de búsqueda:**
-
    ```bash
    sublist3r -d example.com -v
    ```
@@ -43,7 +40,6 @@
    Habilita la opción de búsqueda en múltiples motores de búsqueda en línea para obtener una lista más completa de subdominios.
 
 4. **Buscar subdominios con recursividad:**
-
    ```bash
    sublist3r -d example.com -r
    ```
@@ -59,7 +55,6 @@
    En lugar de proporcionar un solo dominio, puedes proporcionar una lista de dominios en el archivo `list.txt` y la herramienta buscará subdominios para cada uno.
 
 6. **Buscar subdominios en paralelo:**
-
    ```bash
    sublist3r -d example.com -t 10
    ```
@@ -67,7 +62,6 @@
    Especifica el número de hilos (`-t`) para realizar la búsqueda en paralelo, lo que puede acelerar el proceso en sistemas con múltiples núcleos.
 
 7. **Utilizar diferentes fuentes de búsqueda:**
-
    ```bash
    sublist3r -d example.com -e baidu,yahoo
    ```

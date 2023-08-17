@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Django Info/Datos iniciales GitHub.md",
+                "file": "Comandos bash/Comando netcat.md",
                 "mode": "source",
                 "source": false
               }
@@ -53,7 +53,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Comandos bash/Comando sublist3r.md",
+                "file": "Conceptos/Recopilacion de informacion.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 290.5
   },
   "right": {
     "id": "aeb1996e648a0195",
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Comandos bash/Comando sublist3r.md",
+                "file": "Conceptos/Recopilacion de informacion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Comandos bash/Comando sublist3r.md",
+                "file": "Conceptos/Recopilacion de informacion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Comandos bash/Comando sublist3r.md"
+                "file": "Conceptos/Recopilacion de informacion.md"
               }
             }
           }
@@ -175,7 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 316.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,9 +187,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "57763087f91d6b39",
+  "active": "f84e3464eceb0694",
   "lastOpenFiles": [
+    "Comandos bash/Comando find.md",
+    "Comandos bash/Comando grep.md",
+    "Ciberseguridad.md",
+    "Comandos bash/Comando crontab.md",
     "Comandos bash/Comando arp-scan.md",
+    "Conceptos/Recopilacion de informacion.md",
+    "Comandos bash/Comando netcat.md",
+    "Django Info/Datos iniciales GitHub.md",
     "Comandos bash/Comando sublist3r.md",
     "Linux Hacking/Escanear puertos.md",
     "Linux Hacking/Vínculos y Herramientas OSINT.md",
@@ -206,25 +213,18 @@
     "Django Info/Carpeta sin título",
     "Comandos bash/Comando ifconfig.md",
     "Home.md",
-    "Django Info/Datos iniciales GitHub.md",
     "Comandos bash/Comando man.md",
     "Linux Hacking/Herramienta Metasploit.md",
     "Linux Hacking/Herramienta theHarvester.md",
-    "Comandos bash/Comando netcat.md",
     "Comandos bash/Comando ping.md",
     "Comandos bash/Comando systemctl.md",
-    "Comandos bash/Comando grep.md",
     "Comandos bash/Comando du.md",
     "Comandos bash/Comando df.md",
-    "Comandos bash/Comando crontab.md",
     "Linux Hacking/Enumerar equipos en una red (nmap).md",
     "Linux Hacking/LLMs Prompts ChatGPT.md",
     "Linux Hacking/Kali Linux post-instalacion.md",
-    "varios/Sugerencias de estructura en Obsidian.md",
     "imgs/img_varias/obsidian_cargar_nueva_boveda.png",
     "Django Info/django_process.gif",
-    "Django Info/Deploy Django/deploy_pythonanywhere_django3.2.md",
-    "Django Info/Deploy Django/migrar_bd_sqlite_mysql.md",
     "imgs/img_conceptos/HTTP_REQUEST_METHODS.jpeg",
     "imgs/img_conceptos",
     "imgs/img_varias",
