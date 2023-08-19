@@ -1,10 +1,8 @@
-![[header_hacking.jpg]]
-# `metasploit`
+![[header_ethical_hacking.jpg]]
+# Herramienta `metasploit`
 
 ---
 **Tags:** #info #hacking #tool #kali #linux 
-**Fecha creación:** 03.08.2023
-**Fecha ultima modificación:** 03.08.2023
 
 > [!info] Volver a [[Home]] | [[Ciberseguridad]] 
 

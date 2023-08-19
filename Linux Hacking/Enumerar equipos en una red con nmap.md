@@ -1,15 +1,15 @@
 
-![[header_terminal.jpg]]
+![[header_ethical_hacking.jpg]]
 # Enumerar equipos en una red (nmap)
 
-Notas clase taller ciberseguridad - 10.08.2023
+Notas clase taller ciberseguridad UNAB - 10.08.2023
 
 ---
 **Tags:** #info #bash #linux #ciberseguridad #tool 
 **Fecha creación:** 10.08.2023
 **Fecha ultima modificación:** 10.08.2023
 
-> [!info] Volver a [[Home]] 
+> [!info] Volver a [[Home]] | [[Ciberseguridad]]
 
 ---
 ### Objetivo de la clase
@@ -63,6 +63,8 @@ Para evitar escaneos de red con herramientas que usan paquetes ICMP, se puede de
 
 La otra forma de hacer escaneos, se pueden usar paquetes ARP.
 ### 2.1 Comando `arp-scan`
+
+>[!tip] Revisar la guía del [[Comando arp-scan]]
 
 El comando `arp-scan` es una herramienta de línea de comandos que te permite enumerar equipos en una red local utilizando el protocolo ARP (Address Resolution Protocol). ARP se utiliza para mapear direcciones IP a direcciones MAC en una red. 
 
@@ -181,6 +183,10 @@ cd /usr/share/nmap/scripts
 
 Para buscar un tipo de script específico
 ```
+locate .nse | grep enum
+```
+
+```
 locate .nse | grep ssl
 ```
 
@@ -193,6 +199,25 @@ locate .nse | grep ssl
 - `grep ssl`: El comando `grep` se utiliza para buscar líneas que contengan un patrón específico en el texto. En este caso, estás buscando líneas que contengan la palabra "ssl" en la salida del comando anterior. Esto filtra los resultados para mostrar solo las rutas de archivo que también contienen el texto "ssl".
 
 > [!tip] Revisar la guía de [[Comando grep]]
+
+Para probar scripts de nmap que evalúen las vulnerabilidades de ssl, por ejemplo, se puede ejecutar el siguiente comando
+```bash
+nmap --script ssl-*
+```
+
+Para ejecutar scripts específicos se puede ejecutar
+```bash
+nmap --script ssl-enum-ciphers,ssl-cert
+```
+
+También se pueden usar categorías
+```
+nmap --script vuln 192.168.1.1
+```
+
+```
+nmap --script safe,discovery 192.168.1.1
+```
 
 ---
 ### 3.2 Escanear la red con `nmap`
@@ -462,7 +487,6 @@ Para cambiar el puerto en el que el servicio SSH se está ejecutando en Linux, s
    ```
 
 Asegúrate de usar el nuevo puerto cada vez que te conectes al servicio SSH en esta máquina. Cambiar el puerto es una buena práctica de seguridad para evitar escaneos automáticos de puertos y ataques bruteforce, pero también significa que necesitarás especificar el puerto al conectarte.
+ 
 
 ---
-
-

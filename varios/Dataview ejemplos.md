@@ -32,15 +32,14 @@ WHERE file.name = "Home"
 ---
 ### Lista con atributos
 
-Fecha de creación
+Fecha de creación: `file.ctime`
 ```dataview
 LIST file.ctime
 FROM ""
 WHERE file.name = "Home"
 ```
 
-
-Fecha de modificación
+Fecha de modificación: `file.mtime`
 ```dataview
 LIST file.mtime
 FROM ""
@@ -61,14 +60,6 @@ TABLE file.ctime AS "Creado", file.mtime AS "Modif.", file.tags AS "Tags"
 FROM ""
 WHERE file.name = "Home"
 ```
-
----
-### Tabla con tags
-
-```dataview
-TABLE file.ctime AS "Creado", file.mtime AS "Modif.", file.tags AS "Tags"
-FROM ""
-```
 ---
 ### Tabla sin tags
 
@@ -77,7 +68,15 @@ TABLE file.ctime AS "Creado", file.mtime AS "Modif."
 FROM ""
 ```
 
+---
+### Tabla con tags
 
+```dataview
+TABLE file.ctime AS "Creado", file.mtime AS "Modif.", file.tags AS "Tags"
+FROM ""
+```
+
+---
 
 
 

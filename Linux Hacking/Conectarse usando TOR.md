@@ -1,12 +1,12 @@
-![[header_kali.jpg]]
+![[header_tux.jpg]]
 # Conectarse usando la red TOR
 
 ---
 **Tags:** #info #hacking #tool #tor #kali 
-**Fecha:** 07.2023
 
 > [!info] Volver a [[Home]] | [[Ciberseguridad]] 
 
+>[!tip] Relacionado: [[Navegar de forma anónima]]
 
 >[!abstract] Temario
 > * [[#1. Pasos previos]]

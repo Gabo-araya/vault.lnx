@@ -202,9 +202,22 @@ sudo apt autoremove -y
 ---
 ## 11. Actualizar la versión completa del sistema
 
-Se puede actualizar la versión de Kali con el comando
+```bash
+sudo apt-get update && sudo apt-get autoclean && sudo apt-get clean && sudo apt-get autoremove
+```
+
+```bash
+sudo apt full-upgrade
+```
+
+Se puede actualizar a la versión completa de Kali Linux con el comando
 ```bash
 sudo apt dist-upgrade
+```
+
+También se pude usar el comando
+```bash
+sudo apt install kali-linux-large
 ```
 
 ---

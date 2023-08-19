@@ -1,4 +1,4 @@
-![[header_hacking.jpg]]
+![[header_ethical_hacking.jpg]]
 # Ciberseguridad
 ---
 **Tags:** #info #ciberseguridad 

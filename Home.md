@@ -26,7 +26,7 @@
 ---
 ## 2. Conceptos
 ```dataview
-LIST file.ctime
+LIST 
 FROM "Conceptos"
 ```
 
@@ -35,13 +35,13 @@ FROM "Conceptos"
 
 **Comandos**
 ```dataview
-LIST file.ctime
+LIST 
 FROM "Comandos bash"
 ```
 
 **Recetas de hacking**
 ```dataview
-LIST file.ctime
+LIST 
 FROM "Linux Hacking"
 ```
 
@@ -49,7 +49,7 @@ FROM "Linux Hacking"
 ## 4. Django
 
 ```dataview
-LIST file.ctime
+LIST 
 FROM "Django Info"
 ```
 
@@ -74,7 +74,7 @@ FROM "Django Info"
 ## 6. Varios
 
 ```dataview
-LIST file.ctime
+LIST
 FROM "varios"
 ```
 
