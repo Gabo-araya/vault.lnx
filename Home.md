@@ -3,7 +3,7 @@
 # Home - Linux vault
 
 ---
-**Tags:** #home #arreglar #completar 
+**Tags:** #home 
 
 ---
 
@@ -12,9 +12,8 @@
 > * [[#2. Conceptos]]
 > * [[#3. Comandos]]
 > * [[#4. Django]]
-> * [[#5. Raspberry Pi]]
-> * [[#6. Otros recursos Google Docs]]
-> * [[#7. Otros accesos]]
+> * [[#5. Otros recursos Google Docs]]
+> * [[#6. Varios]]
 
 ---
 ## 1. Temas para buscar
@@ -26,78 +25,40 @@
 
 ---
 ## 2. Conceptos
-
->[!info] Conceptos
->* [[Leyes Ciberseguridad Chile]]
->* [[Política Nacional de Ciberseguridad]]
->* [[Formato Markdown Obsidian]]
->* [[La catedral y el bazar]]
->* [[Open Source]]
->* [[OpenVAS]]
->* [[Definiciones de Malware]]
->* [Cómo hacer preguntas inteligentes (Eric. S. Raymond)](https://sindominio.net/ayuda/preguntas-inteligentes.html)
->* [Cómo ser un hacker (Eric. S. Raymond)](https://www.smaldone.com.ar/documentos/docs/comoserhacker.shtml)
+```dataview
+LIST file.ctime
+FROM "Conceptos"
+```
 
 ---
 ## 3. Comandos
 
->[!success] Recetas
->* [[Ubuntu Command Line Tips]]
->* [[Operadores en bash]]
->* [[Conocer el espacio disponible en disco]]
->* [[Conocer la IP del dispositivo]]
->* [[Escanear puertos]]
-> * [[Kali Linux post-instalacion]]
-> * [[Atacar Metasploitable 2]]
-> * [[Conectarse usando The Onion Router]]
-> * [[Ubuntu RPi2 Server]]
-> * [[Configuración de GIT con GitHub]]
-> * [[LLMs Prompts ChatGPT]]
-> * [[Ubuntu Touch]]
-> * [[Ubuntu Command Line Tips]]
+**Comandos**
+```dataview
+LIST file.ctime
+FROM "Comandos bash"
+```
 
->[!warning] Comandos individuales
->* [[Comando crontab]]
->* [[Comando df]]
->* [[Comando du]]
->* [[Comando grep]]
->* [[Comando history]]
->* [[Comando ifconfig]]
->* [[Comando man]]
->* [[Comando ping]]
->* [[Comando ssh]]
->* [[Comando systemctl]]
-
->[!danger] Herramientas pentesting
->* [[Herramienta Metasploit]]
->* [[Comando netcat]]
->* [[Comando nmap]]
->* [[Herramienta theHarvester]]
+**Recetas de hacking**
+```dataview
+LIST file.ctime
+FROM "Linux Hacking"
+```
 
 ---
 ## 4. Django
 
->[!abstract] Django
->* **[[Django - Información de Configuración]]**
->* [[Advanced Django Cheat Sheet]]
->* [[deploy_cpanel_django3.2]]
->* [[deploy_pythonanywhere_django3.2]]
->* [[migrar_bd_sqlite_mysql]]  
->* INTEGRAR:
+```dataview
+LIST file.ctime
+FROM "Django Info"
+```
+
+>[!abstract] INTEGRAR:
 > 	* [Docker+Django+PostgeSQL_tutorial-01](https://colab.research.google.com/drive/1CQawvludFMrXh8uLwd1EwQYCvt0zFIPa)
 > 	* [Docker with Django and PostgreSQL Tutorial](https://colab.research.google.com/drive/1HSFMJ5AMRj7t6574T1NolugyOMRaQ1aJ)
 
 ---
-## 5. Raspberry Pi
-
->[!abstract] Raspberry Pi
->* **[[Ubuntu RPi2 Server]]**
->* [[infraestructura_LEMP]]
->* [[codeigniter_LEMP]]
->* [[instalar_raspiconfig]]
-
----
-## 6. Otros recursos Google Docs 
+## 5. Otros recursos Google Docs 
 
 >[!tip] Google Colabs 
 >
@@ -110,13 +71,12 @@
 
 
 ---
-## 7. Otros accesos
+## 6. Varios
 
->[!abstract] Accesos varios
->* **[[Formato Markdown Obsidian]]**
->* **[[template]]**
->* **[[template_minuta]]**
->* **[[Sugerencias de estructura en Obsidian]]**
+```dataview
+LIST file.ctime
+FROM "varios"
+```
 
 
 

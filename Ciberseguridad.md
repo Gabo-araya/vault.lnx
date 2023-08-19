@@ -1,32 +1,43 @@
 ![[header_hacking.jpg]]
 # Ciberseguridad
 ---
-**Tags:** #info 
-**Fecha creación:** 05.08.2023
-**Fecha ultima modificación:** 05.08.2023
+**Tags:** #info #ciberseguridad 
 
 > [!info] Volver a [[Home]] 
 
->[!tip] **Guías**
->- [[Kali Linux post-instalacion]]
+---
+## Normativa
 
->[!info] Conceptos
->* [[Leyes Ciberseguridad Chile]]
+```dataview
+LIST FROM "Normativa"
+SORT file.ctime DESC
+```
 
 ---
-## Cursos ciberseguridad
+## Linux Hacking
 
-### EC-COUNCIL
-- https://www.eccouncil.org/train-certify/essentials/
-- https://www.eccouncil.org/academia/ethical-hacking-essentials-ehe/
-- [https://codered.eccouncil.org/](https://codered.eccouncil.org/)
-- https://codered.eccouncil.org/your-portal/home?logged=true
+```dataview
+LIST 
+FROM "Linux Hacking"
+```
 
-### Otras certificaciones 
-- https://skillsforall.com/es/career-path/cybersecurity?courseLang=es-XL
-- https://hack4u.io/cursos/introduccion-al-hacking/
-- https://learn.microsoft.com/es-es/training/browse/?terms=ciber
-- https://learn.microsoft.com/es-es/training/paths/describe-basic-concepts-of-cybersecurity/
-- https://grow.google/certificates/cybersecurity/#?modal_active=none
-- 
+--- 
+## Tag Hacking
 
+```dataview
+LIST FROM #hacking AND #tool SORT file.name ASC
+```
+
+---
+## Tag Kali
+
+```dataview
+LIST FROM #kali  SORT file.name ASC
+```
+---
+## Tag Ciberseguridad
+
+```dataview
+LIST FROM #ciberseguridad SORT file.ctime DESC
+```
+---

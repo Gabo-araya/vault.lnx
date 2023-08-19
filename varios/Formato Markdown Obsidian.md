@@ -37,6 +37,10 @@ Este es el readme de mi configuración de Obsidian
 	* [Basic formatting](https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax)
 	* [Advanced formatting](https://help.obsidian.md/Editing+and+formatting/Advanced+formatting+syntax)
 
+Video de ayuda: [Every USEFUL Markdown Syntax That I Use in Obsidian](https://www.youtube.com/watch?v=d8fXEhWy_rY)
+
+![](https://www.youtube.com/watch?v=d8fXEhWy_rY)
+
 ---
 ## 2. Ejemplos de formato
 Estos son algunos ejemplos de formato que se pueden usar

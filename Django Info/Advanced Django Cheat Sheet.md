@@ -14,11 +14,11 @@ If you have ideas, correction or recommendation do not hesitate.
 
 >[!abstract] Temario
 > * [[#Preparing enviro­nment]]
-> * [[#Título 3]]
+> * [[#]]
 
 ---
 ## Sections
-- [Preparing environnement](#preparing-environnement)
+- [Preparing environment](#preparing-environment)
 - [Creating a Django project](#creating-a-django-project)
 - [Creating a Django app](#creating-a-django-app)
 - [Custom User](#custom-user)
@@ -125,7 +125,8 @@ pip install -r requir­eme­nts.txt
 
 ---
 
-## Creating a Django project
+## 2. Creating a Django project
+
 - Starting a new Django project.
 A config directory wil be created in your current directory.
 ```
@@ -138,7 +139,7 @@ python manage.py runserver
 
 ---
 
-## Creating a Django app
+## 3. Creating a Django app
 - Creating an `my_app` directory and all default files/f­olders inside.
 ```
 python manage.py startapp my_app
@@ -159,9 +160,10 @@ urlpat­terns = [
 
 ---
 
-## Custom User
+## 4. Custom User
 ### Custom User Model
 [Django documentation: Using a custom user model when starting a project](https://docs.djangoproject.com/en/stable/topics/auth/customizing/#using-a-custom-user-model-when-starting-a-project)  
+
 1. Create a `CustomUser` model  
 	The `CustomUser` model will live within its own app (for example, 'accounts').
 	```python
@@ -172,6 +174,7 @@ urlpat­terns = [
 	class CustomUser(AbstractUser):
 		pass
 	```
+
 2. Update `settings.py`
 	- Add the 'accounts' app to the `INSTALLED_APPS` section
 	- Add a `AUTH_USER_MODEL` config:
@@ -185,8 +188,8 @@ urlpat­terns = [
 	- Migrate
 
 ### Custom User Forms
-Updating the built-in forms to point to the custom user model instead of `User`.    
 
+Updating the built-in forms to point to the custom user model instead of `User`.    
 ```python
 # accounts/forms.py
 from django.contrib.auth import get_user_model

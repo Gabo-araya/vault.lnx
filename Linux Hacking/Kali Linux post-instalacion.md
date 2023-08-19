@@ -3,7 +3,6 @@
 
 ---
 **Tags:** #kali #linux #hacking #tool 
-**Fecha:** 05.08.2023
 
 > [!info] Volver a [[Home]] | [[Ciberseguridad]] 
 

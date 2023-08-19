@@ -29,6 +29,9 @@ Necesito una pequeña descripción del programa `grep` y sus casos de uso, con e
 Necesito una pequeña descripción del programa `netcat` y sus casos de uso, con ejemplos de cómo utilizar el comando en diferentes situaciones
 ```
 
+```
+Necesito una descripción del comando `tmux` y sus casos de uso, con ejemplos de cómo utilizarlo en diferentes situaciones
+```
 
 ```
 Necesito una pequeña descripción de comando de bash `history` y sus casos de uso, con ejemplos de cómo utilizar el comando en diferentes situaciones

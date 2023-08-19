@@ -1,9 +1,8 @@
 ![[header_terminal.jpg]]
-# Ubuntu Touch
+# Ubuntu Touch - Google Pixel 3a
 
 ---
 Tags: #info
-**Fecha:** 06.2023
 
 > [!info] Volver a [[Home]] | [[Ciberseguridad]]
 
