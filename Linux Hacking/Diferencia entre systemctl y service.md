@@ -1,5 +1,5 @@
 ![[header_terminal.jpg]]
-# Diferencia entres systemctl y service
+# Diferencia entre `systemctl` y `service`
 
 ---
 **Tags:** #info #hacking #tool #tor #kali 

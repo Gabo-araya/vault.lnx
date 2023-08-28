@@ -54,7 +54,7 @@ nmcli -p device show
 ---
 ## Conectarse vía ssh al servidor
 
-> [!tip] **Revisar la guía [[Comando ssh]]**
+> [!tip] **Revisar la guía [[Conectarse con ssh]]**
 
 ```
 ssh 192.168.2.40

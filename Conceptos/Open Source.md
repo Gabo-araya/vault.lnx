@@ -8,8 +8,6 @@
 
 > [!info] Volver a [[Home]] | [[Ciberseguridad]]
 
->[!tip] **Revisar la guía [[Kali Linux post-instalacion]]**
-
 ---
 
 Cuando un software es "open-source" o de código abierto, significa que el código fuente del programa está disponible y accesible para cualquier persona que desee verlo, estudiarlo, modificarlo y distribuirlo. En otras palabras, el código fuente del software está abierto al público y no está protegido por restricciones de propiedad intelectual, como derechos de autor o licencias cerradas.

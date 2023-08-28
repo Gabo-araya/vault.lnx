@@ -112,7 +112,7 @@ Connect remotely through SSH
 ssh <user>@<host IP>
 ```
 
->[!tip] **Revisar la guía de [[Comando ssh]]**
+>[!tip] **Revisar la guía de [[Conectarse con ssh]]**
 
 ---
 ## 3. Ubuntu Advantage

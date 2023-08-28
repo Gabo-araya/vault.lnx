@@ -125,7 +125,6 @@ sudo systemctl status tor.service
 A DNS leak test provides users with information about their VPN connection, including the active IP address and location. This can be compared against their real IP address and location for a DNS leak check.
 
 Este comando ejecuta firefox conectado a través de proxychains y carga el sitio `dnsleaktest.com`. DNS Leak Test muestra la geolocalización de tu IP
-
 ```bash
 proxychains firefox dnsleaktest.com
 ```

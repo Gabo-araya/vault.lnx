@@ -18,7 +18,7 @@ Cuando se quiere hacer una enumeración completa de subdominios se deben seguir 
 
 1. Tratar de recolectar la mayor cantidad de información de los dominios usando motores de búsqueda.
 2. Descargar el sitio web con `wget` y realizar una búsqueda de subdominios con expresiones regulares sobre lo que se descargó. Puede que aparezan cosas nuevas, que no se hayan identificado de forma pasiva.
-3. Ataque de fuerza bruta con diccionarios sobre subdominos con distintos diccionarios.
+3. Ataque de fuerza bruta con diccionarios sobre subdominios con distintos diccionarios.
    
 ```bash
 /usr/share/seclists/Discovery/DNS/subdomains-top1million-110000.txt
@@ -83,10 +83,12 @@ Este comando descargará el sitio web completo en un directorio local. Luego, pu
 
 > [!tip] Revisar la guía del [[Comando grep]]
 
+Usando atributo `href`
 ```
 grep -Eor 'href="[^\"]+"' alumni.unab.cl |grep -E "https?" |cut -d '"' -f2 |sort -u |cut -d "/" -f3 |sort -u
 ```
 
+Usando atributo `src`
 ```
 grep -Eor 'src="[^\"]+"' alumni.unab.cl |grep -E "https?" |cut -d '"' -f2 |sort -u |cut -d "/" -f3 |sort -u
 ```

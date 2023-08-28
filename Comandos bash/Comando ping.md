@@ -13,7 +13,7 @@
 
 El programa `ping` es una herramienta de línea de comandos utilizada para verificar la conectividad entre dispositivos en una red y medir la latencia (el tiempo que tarda un paquete en ir de un punto a otro) entre ellos. Es una herramienta ampliamente utilizada para diagnosticar problemas de red, identificar retrasos en la comunicación y determinar la disponibilidad de hosts remotos.
 
-En resumen, el comando `ping` es una herramienta esencial para diagnosticar problemas de red, verificar la conectividad y medir la latencia en una variedad de escenarios. Es ampliamente utilizado por administradores de sistemas y usuarios para identificar problemas de red y asegurarse de que los dispositivos estén correctamente conectados y comunicándose en una red.
+El comando `ping` es una herramienta esencial para diagnosticar problemas de red, verificar la conectividad y medir la latencia en una variedad de escenarios. Es ampliamente utilizado por administradores de sistemas y usuarios para identificar problemas de red y asegurarse de que los dispositivos estén correctamente conectados y comunicándose en una red.
 
 ## Descripción y casos de uso del comando `ping`
 

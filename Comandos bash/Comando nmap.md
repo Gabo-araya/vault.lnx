@@ -12,6 +12,10 @@
 
 **Nmap** (Network Mapper) es una herramienta de código abierto ampliamente utilizada para el escaneo de redes y la auditoría de seguridad. Su función principal es descubrir hosts y servicios en una red, así como mapear los puertos abiertos en los dispositivos conectados. Nmap ofrece una amplia gama de opciones y funcionalidades que permiten a los administradores de red y profesionales de ciberseguridad obtener información valiosa sobre la seguridad y el estado de la red.
 
+Video de apoyo: [Encuentra Vulnerabilidades en la Red // TUTORIAL Nmap para Hackers](https://www.youtube.com/watch?v=zoOAnbVplSI)
+
+![Encuentra Vulnerabilidades en la Red // TUTORIAL Nmap para Hackers](https://www.youtube.com/watch?v=zoOAnbVplSI)
+
 ---
 ## Casos de uso de Nmap
 
@@ -116,7 +120,7 @@ nmap -oN resultado2.txt 192.168.100.0/24
 ## Nmap tutorial
 
 >[!tip] Más info
->Youtube: [Nmap Tutorial to find Network Vulnerabilities](https://www.youtube.com/watch?v=4t4kBkMsDbQ)
+>Video de apoyo: [Nmap Tutorial to find Network Vulnerabilities](https://www.youtube.com/watch?v=4t4kBkMsDbQ)
 > 
 > ![](https://www.youtube.com/watch?v=4t4kBkMsDbQ)
 
@@ -130,6 +134,21 @@ Escanear toda la red para encontrar puertos abiertos en los hosts
 sudo nmap -sT -p 80,443 192.168.100.0/24
 ```
 
+---
+## Otros ejemplos
+
+
+```
+nmap -n --open -T5 -oX scanfile 192.168.100.15
+```
+
+```
+nmap -p- --min-rate 5000 --open -vvv -oA allportscanfile 192.168.100.15
+```
+
+```
+nmap -p 445 --script=smb-vul* -oA smbscan 192.168.100.15
+```
 
 
 

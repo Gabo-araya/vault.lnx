@@ -104,17 +104,30 @@ Agregar usuario creado a sudoers:
 sudo adduser gabo sudo
 ```
  
-Grupos de usuarios en Ubuntu:
+### 5.2 Asignar grupos a un usuario
+ 
+Para saber los grupos que tiene un usuario: 
+```bash
+groups {user}
+```
+ 
+
+Asignar grupos de usuarios en Ubuntu:
 ```bash
 sudo adduser gabo sudo; sudo adduser gabo adm; sudo adduser gabo dialout; sudo adduser gabo cdrom; sudo adduser gabo floppy; sudo adduser gabo audio; sudo adduser gabo dip; sudo adduser gabo video; sudo adduser gabo plugdev; sudo adduser gabo netdev; sudo adduser gabo lxd
 ```
 
-Grupos de usuarios en Raspberry Pi Os:
+Asignar grupos de usuarios en Raspberry Pi Os:
 ```bash
 sudo adduser gabo adm; sudo adduser gabo dialout; sudo adduser gabo cdrom; sudo adduser gabo sudo; sudo adduser gabo audio; sudo adduser gabo video; sudo adduser gabo plugdev; sudo adduser gabo games; sudo adduser gabo users; sudo adduser gabo input; sudo adduser gabo netdev; sudo adduser gabo spi; sudo adduser gabo i2c; sudo adduser gabo gpio
 ```
 
-### 5.2 Cambiar password de un usuario
+Asignar grupos de usuarios en Kali:
+```bash
+sudo adduser user kali; sudo adduser user adm; sudo adduser user dialout; sudo adduser user cdrom; sudo adduser user floppy; sudo adduser user sudo; sudo adduser user audio; sudo adduser user dip; sudo adduser user video; sudo adduser user plugdev; sudo adduser user users; sudo adduser user netdev; sudo adduser user bluetooth; sudo adduser user scanner; sudo adduser user wireshark; sudo adduser user kaboxer; sudo adduser user vboxsf;
+```
+
+### 5.3 Cambiar password de un usuario
 
 El comando **para cambiar password del usuario que estamos usando en este momento** es el siguiente:
 ```bash
@@ -125,7 +138,7 @@ Para cambiar el nombre de otro usuario:
 ```bash
 passwd nombre_usuario
 ```
-### 5.3 Eliminar un usuario
+### 5.4 Eliminar un usuario
 
 Para eliminar un usuario: 
 ```bash
