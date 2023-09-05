@@ -2,8 +2,7 @@
 # Atacar Metasploitable 2
 
 ---
-**Tags:** #info #hacking #tool #kali #pown #virtualbox #arreglar 
-**Fecha:** 29.07.2023
+**Tags:** #info #hacking #tool #kali #pown #virtualbox #arreglar #completar 
 
 > [!info] Volver a [[Home]] | [[Ciberseguridad]] 
 
@@ -20,13 +19,30 @@
 > * [[#6. Atacar el servicio ssh (port22) usando searchsploit y metasploit]]
 
 ---
+## Descripción
 
-Descarga para usar con VMWare o VirtualBox: https://sourceforge.net/projects/metasploitable/
+Metasploitable2 es una máquina virtual diseñada específicamente para propósitos de capacitación en ciberseguridad y pruebas de penetración. Su objetivo es proporcionar un entorno controlado y vulnerable en el cual los profesionales de seguridad puedan practicar y aprender sobre cómo identificar y aprovechar vulnerabilidades en sistemas y aplicaciones. Aquí tienes una explicación sencilla de Metasploitable2:
 
-_Se asume que el usuario está usando un sistema que tiene instalado VirtualBox. En una de las máquinas virtuales tiene corriendo Kali Linux y en la otra tiene corriendo Metasploitable 2._
+1. **Entorno de Pruebas Seguro**: Metasploitable2 es una máquina virtual que se ejecuta en un software de virtualización, como VirtualBox o VMware. Proporciona un entorno seguro y controlado donde los profesionales de ciberseguridad pueden realizar pruebas sin afectar sistemas en producción.
+
+2. **Vulnerabilidades Intencionales**: Lo que hace que Metasploitable2 sea especial es que está configurado con numerosas vulnerabilidades de seguridad intencionales. Estas vulnerabilidades están allí a propósito para permitir a los usuarios practicar la identificación y explotación de fallos de seguridad.
+
+3. **Sistema Operativo**: Metasploitable2 está basado en una versión antigua de Ubuntu Linux y se ejecuta como una máquina virtual. Contiene servicios y aplicaciones típicamente utilizados en servidores, pero que a menudo tienen configuraciones inseguras.
+
+4. **Uso para Capacitación y Pruebas**: Los profesionales de ciberseguridad pueden utilizar Metasploitable2 para aprender a utilizar herramientas de pruebas de penetración como Metasploit y Nmap, y para comprender cómo funcionan las vulnerabilidades y cómo proteger sistemas contra ataques similares.
+
+5. **Escenario Realista**: Aunque es una máquina virtual, Metasploitable2 se configura para simular un entorno de servidor realista. Los usuarios pueden intentar encontrar y explotar vulnerabilidades de la misma manera en que lo harían en un sistema en producción.
+
+6. **Seguridad Responsable**: Es importante recordar que Metasploitable2 debe utilizarse de manera ética y legal. No se debe utilizar para atacar sistemas que no cuenten con el permiso explícito del propietario. El objetivo es aprender sobre seguridad y cómo defender sistemas, no dañarlos.
+
+En resumen, Metasploitable2 es una herramienta valiosa para aprender sobre ciberseguridad y pruebas de penetración en un entorno controlado y seguro. Permite a los profesionales de seguridad practicar la identificación y explotación de vulnerabilidades de manera responsable.
+
+Descargar para usar con VMWare o VirtualBox: https://sourceforge.net/projects/metasploitable/
 
 ---
 ## 1. Pasos previos
+
+_Se asume que el usuario está usando un sistema que tiene instalado VirtualBox. En una de las máquinas virtuales tiene corriendo Kali Linux y en la otra tiene corriendo Metasploitable 2._
 ### 1.1 Configurar Virtualbox
 
 Para poder usar la una red NAT, es necesario instalar el paquete VirtualBox-ext-pack. Luego de instalarlo y reiniciar, si usa linux, es posible que tenga que correr el siguiente comando:

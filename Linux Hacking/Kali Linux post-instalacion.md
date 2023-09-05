@@ -28,7 +28,25 @@
 > * [[#13. Tips and Tricks Fixing VirtualBox Kali Linux Black Screen]]
 
 ---
+## Descripción
 
+Kali Linux es una distribución de Linux basada en Debian diseñada específicamente para la ciberseguridad y las pruebas de penetración. Se desarrolló como una sucesora de BackTrack Linux y se ha convertido en una de las distribuciones más populares y ampliamente utilizadas en el campo de la seguridad informática. 
+
+Kali Linux es una distribución de Linux especializada en ciberseguridad que proporciona una plataforma robusta y versátil para profesionales de la seguridad informática y entusiastas que desean realizar pruebas, análisis y auditorías de seguridad. Su amplia gama de herramientas y su comunidad activa la convierten en una elección popular en el campo de la ciberseguridad.
+
+1. **Herramientas de Ciberseguridad**: Kali Linux se suministra con una amplia gama de herramientas de ciberseguridad, incluidas herramientas de pruebas de penetración, análisis forense, auditoría de seguridad, análisis de vulnerabilidades y más. Estas herramientas están preinstaladas y configuradas para su uso inmediato.
+
+2. **Entorno de Pruebas Éticas**: Kali Linux se utiliza principalmente como un entorno de pruebas éticas. Esto significa que está destinado a ser utilizado por profesionales de la seguridad y auditores para evaluar y mejorar la seguridad de sistemas y redes de manera legal y ética.
+
+3. **Entorno Controlado**: Se instala típicamente en una máquina virtual o en un dispositivo dedicado para crear un entorno controlado y aislado. Esto permite a los profesionales de seguridad realizar pruebas sin riesgo de dañar sistemas en producción.
+
+4. **Actualizaciones Constantes**: Kali Linux se mantiene y actualiza constantemente para incorporar nuevas herramientas y actualizaciones de seguridad. Esto asegura que los profesionales siempre tengan acceso a las últimas técnicas y herramientas de seguridad.
+
+5. **Documentación y Comunidad**: Kali Linux cuenta con una comunidad activa de usuarios y desarrolladores. Ofrece una amplia documentación, foros de soporte y recursos en línea que ayudan a los usuarios a aprender y resolver problemas relacionados con la seguridad informática.
+
+6. **Legalidad y Ética**: Es importante destacar que Kali Linux debe utilizarse de manera legal y ética. Los profesionales de seguridad deben obtener permisos adecuados antes de realizar pruebas en sistemas que no sean de su propiedad y deben seguir las leyes y regulaciones locales y globales de ciberseguridad.
+
+---
 - Con ideas obtenidas desde: https://www.youtube.com/watch?v=sH20ovfcpGA y https://www.ceos3c.com/security/top-things-after-installing-kali-linux/?expand_article=1
 - Revisar también: https://www.ceos3c.com/security/top-things-after-installing-kali-linux/?expand_article=1
 
@@ -155,6 +173,18 @@ sudo usermod -aG sudo usuario
 Agregar el path a bash para ese usuario
 ```bash
 sudo chsh -s /bin/bash usuario
+```
+
+### Asignar grupos a un usuario
+ 
+Para saber los grupos que tiene un usuario: 
+```bash
+groups {user}
+```
+ 
+Asignar grupos de usuarios en Kali:
+```bash
+sudo adduser user kali; sudo adduser user adm; sudo adduser user dialout; sudo adduser user cdrom; sudo adduser user floppy; sudo adduser user sudo; sudo adduser user audio; sudo adduser user dip; sudo adduser user video; sudo adduser user plugdev; sudo adduser user users; sudo adduser user netdev; sudo adduser user bluetooth; sudo adduser user scanner; sudo adduser user wireshark; sudo adduser user kaboxer; sudo adduser user vboxsf;
 ```
 
 ### Eliminar un usuario
