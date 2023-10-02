@@ -1,6 +1,5 @@
 ![[header_ethical_hacking.jpg]]
 # VirtualBox
-
 ---
 **Tags:** #info #hacking #tool 
 

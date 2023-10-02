@@ -29,6 +29,7 @@
 | Ley 21.113 | Octubre, mes de la ciberseguridad | [Ley Chile](https://www.bcn.cl/leychile/navegar?idNorma=1123489) | 
 | **[[Ley 21.459]]** | Establece normas sobre delitos informáticos | [Ley Chile](https://www.bcn.cl/leychile/navegar?idNorma=1177743) | 
 
+[https://www.csirt.gob.cl/decretos/](https://www.csirt.gob.cl/decretos/)
 
 ---
 ## Normas reglamentarias
