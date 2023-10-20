@@ -4,6 +4,7 @@
 **Tags:** #info #ciberseguridad 
 
 > [!info] Volver a [[Home]] 
+[[Ley 21.459]]
 
 ---
 ## Normativa

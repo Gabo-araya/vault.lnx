@@ -22,6 +22,7 @@
 > * **[Open VAS](https://www.looklinux.com/how-to-install-openvas-on-ubuntu-debian-or-kali-linux-machine/)**
 > * [Instalar OpenVAS](https://www.looklinux.com/how-to-install-openvas-on-ubuntu-debian-or-kali-linux-machine/)
 > * [h8mail](https://esgeeks.com/h8mail-encontrar-email-contrasenas-hackeadas/)
+> * Public Pentesting Reports: https://github.com/juliocesarfort/public-pentesting-reports
 
 ---
 ## 2. Conceptos
