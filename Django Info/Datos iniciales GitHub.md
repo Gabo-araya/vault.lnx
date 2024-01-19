@@ -6,6 +6,8 @@ _Estos son los datos iniciales de GitHub._
 ---
 Tags:  #github #codigo #linux #readme #ampliar #arreglar 
 
+> [!info] Volver a [[Home]] | [[Configuración de GIT con GitHub]]
+
 ---
 ## 1. Configurar git local con github por primera vez
 

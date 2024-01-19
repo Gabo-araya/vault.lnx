@@ -24,6 +24,20 @@
 > * [h8mail](https://esgeeks.com/h8mail-encontrar-email-contrasenas-hackeadas/)
 > * Public Pentesting Reports: https://github.com/juliocesarfort/public-pentesting-reports
 
+## Django
+
+>[!tip] Django links
+> * Installing Django on PythonAnywhere: https://www.dj4e.com/assn/dj4e_install.md
+> * Django LLM: https://github.com/mikrl/django-llm
+> * https://alicecampkin.medium.com/django-testing-for-beginners-146bd285a178
+> * https://ctrlzblog.com/how-to-test-django-models-with-examples/
+> * https://ctrlzblog.com/a-beginners-guide-to-unit-testing-in-django/
+> * 
+
+https://www.codingforentrepreneurs.com/courses/django-tests-unleashed/
+Curso TDD Django: https://testdriven.io/courses/tdd-django/
+
+
 ---
 ## 2. Conceptos
 ```dataview

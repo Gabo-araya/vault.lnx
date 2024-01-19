@@ -5,7 +5,7 @@
 **Fecha creación:** 06.08.2023
 **Fecha ultima modificación:** 06.08.2023
 
-> [!info] Volver a [[Home]] 
+> [!info] Volver a [[Home]] | [[Datos iniciales GitHub]]
 
 ---
 

@@ -22,21 +22,7 @@
             }
           },
           {
-            "id": "d9b8225cc6c98e93",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GRC - Governability Risk Compliance/ISO 27001/Curso ISO 27001 - Universidad de Chile - 16.10.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "461d96814c394b30",
+            "id": "247a97a88d8eabb4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -48,43 +34,45 @@
             }
           },
           {
-            "id": "a0375abc3f44af58",
+            "id": "8eaf219f187b9497",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GRC - Governability Risk Compliance/Gestión del cambio en las organizaciones.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "d524dca0720ad696",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GRC - Governability Risk Compliance/NIST/How to Make Sense of Cybersecurity Frameworks.md",
+                "file": "Django Info/Datos iniciales GitHub.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "76c4a44198a9363b",
+            "id": "5bd03cfecea3d37e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GRC - Governability Risk Compliance/imgs varias revisar + LINKS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fd6d1d188dbc4008",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSIRT/Cinco consejos básicos de ciberseguridad.md",
+                "file": "Linux Hacking/Configuración de GIT con GitHub.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -113,7 +101,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#ciberseguridad",
+                "query": "github",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -134,7 +122,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5
+    "width": 257.5
   },
   "right": {
     "id": "aeb1996e648a0195",
@@ -150,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSIRT/Cinco consejos básicos de ciberseguridad.md",
+                "file": "Django Info/Datos iniciales GitHub.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSIRT/Cinco consejos básicos de ciberseguridad.md",
+                "file": "Django Info/Datos iniciales GitHub.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSIRT/Cinco consejos básicos de ciberseguridad.md"
+                "file": "Django Info/Datos iniciales GitHub.md"
               }
             }
           },
@@ -200,7 +188,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -209,7 +199,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 251.5
+    "width": 308.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -221,52 +211,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fd6d1d188dbc4008",
+  "active": "d524dca0720ad696",
   "lastOpenFiles": [
-    "GRC - Governability Risk Compliance/imgs varias revisar + LINKS.md",
-    "GRC - Governability Risk Compliance/NIST/How to Make Sense of Cybersecurity Frameworks.md",
+    "Linux Hacking/Configuración de GIT con GitHub.md",
+    "Django Info/Datos iniciales GitHub.md",
     "varios/Formato Markdown Obsidian.md",
-    "GRC - Governability Risk Compliance/ISO 27001/Curso ISO 27001 - Universidad de Chile - 16.10.md",
-    "CSIRT/Cinco consejos básicos de ciberseguridad.md",
-    "GRC - Governability Risk Compliance/ISO 27110/Guía para el abordaje ISO-IEC 27110 creación de marcos de ciberseguridad.pdf",
-    "GRC - Governability Risk Compliance/ISO 27110",
-    "GRC - Governability Risk Compliance/Carpeta sin título",
-    "GRC - Governability Risk Compliance/NIST/NIST RISK MANAGEMENT FRAMEWORK.pdf",
-    "CSIRT/archivos/Selección_235.png",
-    "CSIRT/archivos/Selección_234.png",
-    "CSIRT/archivos/Selección_233.png",
-    "CSIRT/archivos/Selección_232.png",
-    "CSIRT/archivos/Selección_231.png",
-    "CSIRT/archivos/Selección_230.png",
-    "CSIRT/archivos/Selección_229.png",
-    "CSIRT/archivos/Selección_228.png",
-    "CSIRT/archivos/Selección_227.png",
-    "CSIRT/archivos/Selección_226.png",
-    "CSIRT",
-    "CSIRT/archivos",
+    "GRC - Governability Risk Compliance/Gestión del cambio en las organizaciones.md",
+    "GRC - Governability Risk Compliance/ISO 27001/Analisis GAP para un SGSI basado en ISO 27001.md",
+    "GRC - Governability Risk Compliance/ISO 27001/Análisis Pestel.md",
+    "GRC - Governability Risk Compliance/ISO 31000/ISO 31000 - Cómo implementar el pensamiento basado en riesgos en las organizaciones.md",
+    "GRC - Governability Risk Compliance/ISO 9001/ISO 9001 - Desarrollo y control de la información documentada en los SGC.md",
+    "GRC - Governability Risk Compliance/ISO 270XX/curso uchile/PPT_Norma27001.pdf",
+    "GRC - Governability Risk Compliance/ISO 270XX/curso uchile/PPT_Controles_del_Anexo_A_de_27001_2022.pdf",
+    "GRC - Governability Risk Compliance/ISO 270XX/curso uchile/Interacciones_de_un_SGS_en_ISO_27001_2022.pdf",
+    "Diagramas/Selección_010.png",
+    "Diagramas/Selección_009.png",
+    "Diagramas/Selección_008.png",
+    "Diagramas/Selección_007.png",
+    "Diagramas/Selección_006.png",
+    "Diagramas/Selección_005.png",
+    "Diagramas/Selección_004.png",
+    "Diagramas/Selección_001.png",
+    "Diagramas/Selección_003.png",
+    "Diagramas/Selección_002.png",
+    "Django Info/Advanced Django Cheat Sheet.md",
     "GRC - Governability Risk Compliance/ISO 31000/ISO 31000 2018 ES.pdf",
-    "GRC - Governability Risk Compliance/ISO 31000",
-    "GRC - Governability Risk Compliance/ISO 27001/ISO 31000/ISO 31000 2018 ES.pdf",
-    "GRC - Governability Risk Compliance/ISO 27001/ISO 31000",
-    "GRC - Governability Risk Compliance/NIST/NIST CSF changes v1.1 - v2.0.md",
-    "GRC - Governability Risk Compliance/Vulnerability Management.md",
-    "GRC - Governability Risk Compliance/ISO 27001/Metodología de Implementación de ISO 27001 y su relación con la ciberseguridad y privacidad.md",
-    "GRC - Governability Risk Compliance/ISO 27001/Elaboración Matrices de Riesgo.md",
-    "GRC - Governability Risk Compliance/ISO 27001/Milestones para implementar un SGSI.md",
-    "GRC - Governability Risk Compliance/ISO 27001/ISO 27001 - Curso Udemy.md",
-    "Comandos bash/Comando nmap.md",
     "Ciberseguridad.md",
-    "Normativa/Ley 21.459.md",
     "Linux Hacking/Atacar Metasploitable 2.md",
-    "varios/Dataview ejemplos.md",
+    "Linux Hacking/Herramienta theHarvester.md",
+    "Linux Hacking/Escribiendo Reportes.md",
+    "Comandos bash/Comando dnsenum.md",
+    "GRC - Governability Risk Compliance/Market Oportunity Navigator.md",
+    "GRC - Governability Risk Compliance/How to Make Sense of Cybersecurity Frameworks - article.md",
+    "GRC - Governability Risk Compliance/How to Make Sense of Cybersecurity Frameworks - video.md",
     "Home.md",
-    "Linux Hacking/Ubuntu RPi2 Server.md",
-    "Linux Hacking/Ubuntu Command Line Tips.md",
-    "Linux Hacking/LLMs Prompts ChatGPT.md",
-    "Linux Hacking/Herramienta Metasploit.md",
-    "Linux Hacking/Navegar de forma anónima.md",
-    "Linux Hacking/Ubuntu Touch - Google Pixel 3a.md",
-    "readme.md",
-    "Linux Hacking/Kali Linux post-instalacion.md"
+    "GRC - Governability Risk Compliance/ISO 270XX/ISO 27004-2010.pdf",
+    "CURSOS/Uchile",
+    "CURSOS/USACH",
+    "CURSOS/EC-Council",
+    "GRC - Governability Risk Compliance/ISO 270XX/Análisis de Contexto para Implementación de SGSI.xlsx",
+    "GRC - Governability Risk Compliance/ISO 270XX/Sin confirmar 205147.crdownload",
+    "GRC - Governability Risk Compliance/CURSOS/Curso Implementacion ISO 27.001/Clase 03 - Curso Implementación ISO 27001 - Usach 2023.md",
+    "CURSOS/USACH/Curso Implementacion ISO 27001/Clase 09 - Curso Implementación ISO 27001 - Usach 2023.md",
+    "CURSOS/USACH/Curso Implementacion ISO 27001/Clase 08 - Curso Implementación ISO 27001 - Usach 2023.md",
+    "CURSOS/USACH/Curso Implementacion ISO 27001/Clase 07 - Curso Implementación ISO 27001 - Usach 2023.md",
+    "CURSOS/USACH/Curso Implementacion ISO 27001/Clase 06 - Curso Implementación ISO 27001 - Usach 2023.md",
+    "CURSOS/USACH/Curso Implementacion ISO 27001/Clase 05 y 06 - Curso Implementación ISO 27001 - Usach 2023.md",
+    "CURSOS/USACH/Curso Implementacion ISO 27001/Clase 04 - Curso Implementación ISO 27001 - Usach 2023.md",
+    "CURSOS/USACH/Curso Implementacion ISO 27001/Clase 03 - Curso Implementación ISO 27001 - Usach 2023.md"
   ]
 }

@@ -62,13 +62,13 @@ ISO 27001: Cómo hacer tu política del SGSI
 
 ![[Selección_085.png]]
 
-![[Selección_087.png]]
+![[GRC - Governability Risk Compliance/NIST RMF/Selección_087.png]]
 
 
-![[Selección_088.png]]
+![[GRC - Governability Risk Compliance/NIST RMF/Selección_088.png]]
 
 
-![[Selección_089.png]]
+![[GRC - Governability Risk Compliance/NIST RMF/Selección_089.png]]
 
 
 

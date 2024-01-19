@@ -11,12 +11,6 @@ Be aware it's not an exhaustive list.
 If you have ideas, correction or recommendation do not hesitate.
 
 ---
-
->[!abstract] Temario
-> * [[#Preparing enviro­nment]]
-> * [[#]]
-
----
 ## Sections
 - [Preparing environment](#preparing-environment)
 - [Creating a Django project](#creating-a-django-project)
