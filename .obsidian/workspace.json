@@ -27,7 +27,43 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "varios/Formato Markdown Obsidian.md",
+                "file": "Django Info/Django - Información de Configuración.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e3d6530d80e6ab00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GRC - Governability Risk Compliance/How to Make Sense of Cybersecurity Frameworks - video.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dabc2df646a0930e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Comandos bash/Comando dig.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "37ce8254497f604a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Django Info/Deploy Django/deploy_pythonanywhere_django3.2.md",
                 "mode": "source",
                 "source": false
               }
@@ -45,30 +81,6 @@
                 "source": false
               },
               "pinned": true
-            }
-          },
-          {
-            "id": "d524dca0720ad696",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Django Info/Datos iniciales GitHub.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5bd03cfecea3d37e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux Hacking/Configuración de GIT con GitHub.md",
-                "mode": "source",
-                "source": false
-              }
             }
           }
         ],
@@ -101,7 +113,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "github",
+                "query": "comando dig",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -138,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Django Info/Datos iniciales GitHub.md",
+                "file": "Comandos bash/Comando dig.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Django Info/Datos iniciales GitHub.md",
+                "file": "Comandos bash/Comando dig.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Django Info/Datos iniciales GitHub.md"
+                "file": "Comandos bash/Comando dig.md"
               }
             }
           },
@@ -208,56 +220,57 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "d524dca0720ad696",
+  "active": "dabc2df646a0930e",
   "lastOpenFiles": [
-    "Linux Hacking/Configuración de GIT con GitHub.md",
+    "Comandos bash/Comando dirb.md",
+    "Comandos bash/Comando dig.md",
+    "Comandos bash/Comando nmap.md",
+    "Linux Hacking/Atacar Metasploitable 2.md",
+    "GRC - Governability Risk Compliance/How to Make Sense of Cybersecurity Frameworks - article.md",
+    "GRC - Governability Risk Compliance/NIST CSF/NIST.CSWP.29.pdf",
+    "GRC - Governability Risk Compliance/How to Make Sense of Cybersecurity Frameworks - video.md",
+    "Linux Hacking/Herramienta Tenable Nessus.md",
+    "Linux Hacking/archivos/Selección_1375.png",
+    "Linux Hacking/archivos/Selección_1377.png",
+    "Linux Hacking/archivos/Selección_1374.png",
+    "Linux Hacking/archivos/Selección_1372b.png",
+    "Linux Hacking/archivos/Selección_1372.png",
+    "Linux Hacking/archivos/Selección_1371.png",
+    "Linux Hacking/archivos/Selección_1370.png",
+    "Linux Hacking/archivos/Selección_1379.png",
+    "Linux Hacking/archivos/Selección_1369.png",
+    "Linux Hacking/archivos/Selección_1364.png",
+    "Django Info/Deploy Django/deploy_pythonanywhere_django3.2.md",
+    "Linux Hacking/archivos",
+    "Linux Hacking/Herramienta BurpSuite.md",
+    "Linux Hacking/Conectarse con ssh.md",
+    "Linux Hacking/Atacar DVWA.md",
+    "Linux Hacking/Kali Linux post-instalacion.md",
+    "Ciberseguridad.md",
+    "Linux Hacking/Ubuntu Touch - Google Pixel 3a.md",
+    "Normativa/Leyes Ciberseguridad Chile.md",
+    "Normativa/Ley 21.459.md",
+    "Normativa/Ley-21459_20-JUN-2022_firmado.pdf",
+    "Normativa/Ley-21459_20-JUN-2022.pdf",
+    "Conceptos/Recopilacion de informacion.md",
+    "Conceptos/Resolución de problemas.md",
+    "Django Info/Deploy Django/deploy_cpanel_django3.2.md",
+    "Django Info/Deploy Django/migrar_bd_sqlite_mysql.md",
+    "Django Info/Advanced Django Cheat Sheet.md",
     "Django Info/Datos iniciales GitHub.md",
-    "varios/Formato Markdown Obsidian.md",
-    "GRC - Governability Risk Compliance/Gestión del cambio en las organizaciones.md",
+    "Django Info/Django - Información de Configuración.md",
+    "GRC - Governability Risk Compliance/ISO 9001/ISO 9001 - Desarrollo y control de la información documentada en los SGC.md",
     "GRC - Governability Risk Compliance/ISO 27001/Analisis GAP para un SGSI basado en ISO 27001.md",
     "GRC - Governability Risk Compliance/ISO 27001/Análisis Pestel.md",
-    "GRC - Governability Risk Compliance/ISO 31000/ISO 31000 - Cómo implementar el pensamiento basado en riesgos en las organizaciones.md",
-    "GRC - Governability Risk Compliance/ISO 9001/ISO 9001 - Desarrollo y control de la información documentada en los SGC.md",
     "GRC - Governability Risk Compliance/ISO 270XX/curso uchile/PPT_Norma27001.pdf",
     "GRC - Governability Risk Compliance/ISO 270XX/curso uchile/PPT_Controles_del_Anexo_A_de_27001_2022.pdf",
     "GRC - Governability Risk Compliance/ISO 270XX/curso uchile/Interacciones_de_un_SGS_en_ISO_27001_2022.pdf",
-    "Diagramas/Selección_010.png",
-    "Diagramas/Selección_009.png",
-    "Diagramas/Selección_008.png",
-    "Diagramas/Selección_007.png",
-    "Diagramas/Selección_006.png",
-    "Diagramas/Selección_005.png",
-    "Diagramas/Selección_004.png",
-    "Diagramas/Selección_001.png",
-    "Diagramas/Selección_003.png",
-    "Diagramas/Selección_002.png",
-    "Django Info/Advanced Django Cheat Sheet.md",
     "GRC - Governability Risk Compliance/ISO 31000/ISO 31000 2018 ES.pdf",
-    "Ciberseguridad.md",
-    "Linux Hacking/Atacar Metasploitable 2.md",
-    "Linux Hacking/Herramienta theHarvester.md",
-    "Linux Hacking/Escribiendo Reportes.md",
-    "Comandos bash/Comando dnsenum.md",
-    "GRC - Governability Risk Compliance/Market Oportunity Navigator.md",
-    "GRC - Governability Risk Compliance/How to Make Sense of Cybersecurity Frameworks - article.md",
-    "GRC - Governability Risk Compliance/How to Make Sense of Cybersecurity Frameworks - video.md",
-    "Home.md",
     "GRC - Governability Risk Compliance/ISO 270XX/ISO 27004-2010.pdf",
-    "CURSOS/Uchile",
-    "CURSOS/USACH",
-    "CURSOS/EC-Council",
-    "GRC - Governability Risk Compliance/ISO 270XX/Análisis de Contexto para Implementación de SGSI.xlsx",
-    "GRC - Governability Risk Compliance/ISO 270XX/Sin confirmar 205147.crdownload",
-    "GRC - Governability Risk Compliance/CURSOS/Curso Implementacion ISO 27.001/Clase 03 - Curso Implementación ISO 27001 - Usach 2023.md",
-    "CURSOS/USACH/Curso Implementacion ISO 27001/Clase 09 - Curso Implementación ISO 27001 - Usach 2023.md",
-    "CURSOS/USACH/Curso Implementacion ISO 27001/Clase 08 - Curso Implementación ISO 27001 - Usach 2023.md",
-    "CURSOS/USACH/Curso Implementacion ISO 27001/Clase 07 - Curso Implementación ISO 27001 - Usach 2023.md",
-    "CURSOS/USACH/Curso Implementacion ISO 27001/Clase 06 - Curso Implementación ISO 27001 - Usach 2023.md",
-    "CURSOS/USACH/Curso Implementacion ISO 27001/Clase 05 y 06 - Curso Implementación ISO 27001 - Usach 2023.md",
-    "CURSOS/USACH/Curso Implementacion ISO 27001/Clase 04 - Curso Implementación ISO 27001 - Usach 2023.md",
-    "CURSOS/USACH/Curso Implementacion ISO 27001/Clase 03 - Curso Implementación ISO 27001 - Usach 2023.md"
+    "CURSOS/Uchile"
   ]
 }

@@ -26,6 +26,7 @@ Tags:  #django #codigo #linux #readme
 >* Framework web: Django 3.2.16
 >* Base de datos: Sqlite3
 
+---
 ### Ayuda
 
 [Deploy a Django web app to Python Anywhere [FREE]](https://www.youtube.com/watch?v=xtnUwvjOThg)
@@ -39,7 +40,14 @@ Tags:  #django #codigo #linux #readme
 
 ---
 
-## Pasos para Despliegue 📦
+## Pasos para Despliegue 📦🚀
+
+Se asume que existe una cuenta beginner en pythonanywhere:
+
+https://www.pythonanywhere.com/user/xqazprog/
+
+
+
 
 Acceder a pythonanywhere
 - [PythonAnywhere.com/gaboaraya](https://www.pythonanywhere.com/user/gaboaraya/)
@@ -68,6 +76,12 @@ git clone https://[username]:[token]@github.com/[username]/[repo]
 ```
 git clone https://Gabo-araya:ghp_TOKEN_GENERADO_EN_GITHUB@github.com/Gabo-araya/repositorio
 ```
+
+
+```
+git clone https://Gabo-araya:ghp_TOKEN_GENERADO_EN_GITHUB@github.com/Gabo-araya/coderblog
+```
+
 
 Instalar los requerimientos
 ```

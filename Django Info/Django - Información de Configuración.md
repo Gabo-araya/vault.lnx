@@ -93,6 +93,56 @@ _Esta es una lista de los paquetes que deben estar instalados previamente:_
 ---
 ## 2. Comandos para configuración local
 
+### Instalación pre-requisitos [Windows] 🔧
+
+Muchas veces tenemos ese problema común de no poder instalar ciertas librerías o realizar configuraciones para poder desarrollar en Windows para Web y es por ello que en éste tutorial vamos a ver los pasos para instalar Python y configurarlo con Pip y Virtualenv para así poder empezar a desarrollar aplicaciones basadas en éste lenguaje e instalar Django para crear aplicaciones web. [Ver video -> **https://www.youtube.com/watch?v=sG7Q-r_SZhA**](https://www.youtube.com/watch?v=sG7Q-r_SZhA)
+
+1. Descargamos e instalamos Python 3.6 (o una versión superior) para Windows
+    
+    - [https://www.python.org/downloads/](https://www.python.org/downloads/)
+2. Agregaremos Python a las variables de entorno de nuestro sistema si es que no se agregaron durante la instalación para que así podamos ejecutarlo desde la terminal `/cmd`
+    
+    - `C:\Python34 y C:\Python34\Scripts`
+3. Ejecutamos Pip para verificar que esté instalado correctamente
+    
+    - `pip --version`
+4. Instalamos Virtualenv con pip
+    
+    - `pip install virtualenv`
+5. Verificamos la versión de Virtualenv
+    
+    - `virtualenv --version`
+6. Crearemos un entorno virtual con Python
+    
+    - `virtualenv test`
+7. Iniciamos el entorno virtual
+    
+    - `.\test\Scripts\activate`
+8. Finalmente desactivamos el entorno virtual
+    
+    - `deactivate`
+
+### Instalación pre-requisitos [GNU/Linux] 🔧
+
+1. Ejecutamos Pip para verificar que esté instalado correctamente
+    
+    - `pip3 --version`
+2. Instalamos Virtualenv con pip
+    
+    - `pip3 install virtualenv`
+3. Verificamos la versión de Virtualenv
+    
+    - `virtualenv --version`
+4. Crearemos un entorno virtual con Python
+    
+    - `python3 -m venv /home/gabo/envs/gaboaraya/env`
+5. Activamos el entorno virtual
+    
+    - `source /home/gabo/envs/gaboaraya/env/bin/activate`
+6. Finalmente desactivamos el entorno virtual
+    
+    - `deactivate`
+
 ---
 ## 3. Comandos para instalación y configuración de Django
 
@@ -107,7 +157,7 @@ $ python --version // versión de python 2
 * Instalacion de pip
 `pip` es un sistema de gestión de paquetes utilizado para instalar y administrar paquetes de software escritos en Python. Para instalar paquetes pip en Python 3 se debe utilizar el comando `pip3`.
 ```
-$ sudo apt install python-pip3
+$ sudo apt install python3-pip
 ```
 
 * Instalación de virtualenv
@@ -126,7 +176,7 @@ virtualenv --version
 A veces también se necesita instalar el venv en python3
 
 ```
-sudo apt-get python3-venv
+sudo apt-get install python3-venv
 ```
 
 ### 3.2 Entorno virtual e instalación de Django
@@ -135,13 +185,17 @@ Por orden, es ideal que los entornos virtuales se guarden todos en el mismo luga
 
 * Crear entorno virtual
 
+```
+cd /home/gabo/envs/
+```
+
 Este comando creará un entorno virtual llamado `env` en el directorio `~/envs/usuario/`
 ```
-python3 -m venv /home/gabo/envs/usuario/env
+python3 -m venv /home/gabo/envs/proyecto/env
 ```
 
 
-Si ya estás en la carpeta donde se guardarán los virtualenv:
+Si ya estás en la carpeta donde se guardarán los entornos virtuales:
 ```
 python3 -m venv env
 ```
@@ -150,11 +204,11 @@ python3 -m venv env
 
 * Activar entorno virtual
 ```
-source /home/gabo/envs/usuario/env/bin/activate
+source /home/gabo/envs/proyecto/env/bin/activate
 ```
 
 ```
-source ~/envs/usuario/env/bin/activate
+source ~/envs/proyecto/env/bin/activate
 ```
 
 * Para desactivar el entorno virtual y volver al entorno global se usa este comando:

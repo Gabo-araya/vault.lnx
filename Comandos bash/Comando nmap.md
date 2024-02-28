@@ -108,22 +108,6 @@ Este comando realizará un escaneo de puertos en la dirección IP "192.168.1.1" 
 
 9. **Nmap (selección personal)**:
 
-```
-sudo nmap -O -oN resultado.txt 192.168.100.0/24
-```
-
-```
-nmap -oN resultado2.txt 192.168.100.0/24
-```
-
----
-## Nmap tutorial
-
->[!tip] Más info
->Video de apoyo: [Nmap Tutorial to find Network Vulnerabilities](https://www.youtube.com/watch?v=4t4kBkMsDbQ)
-> 
-> ![](https://www.youtube.com/watch?v=4t4kBkMsDbQ)
-
 Escanear toda la red para encontrar hosts
 ```
 nmap -sP 192.168.100.0/24
@@ -134,9 +118,7 @@ Escanear toda la red para encontrar puertos abiertos en los hosts
 sudo nmap -sT -p 80,443 192.168.100.0/24
 ```
 
----
 ## Otros ejemplos
-
 
 ```
 nmap -n --open -T5 -oX scanfile 192.168.100.15
@@ -150,6 +132,28 @@ nmap -p- --min-rate 5000 --open -vvv -oA allportscanfile 192.168.100.15
 nmap -p 445 --script=smb-vul* -oA smbscan 192.168.100.15
 ```
 
+```
+nmap -O -oN resultado.txt 192.168.100.0/24
+```
+
+```
+nmap -oN resultado2.txt 192.168.100.0/24
+```
+
+```
+sudo nmap --open 192.168.100.20 -Pn -n --top-ports 100 -T5
+```
+
+---
+## Nmap tutorial
+
+>[!tip] Más info
+>Video de apoyo: [Nmap Tutorial to find Network Vulnerabilities](https://www.youtube.com/watch?v=4t4kBkMsDbQ)
+> 
+> ![](https://www.youtube.com/watch?v=4t4kBkMsDbQ)
+
+
+---
 
 
 

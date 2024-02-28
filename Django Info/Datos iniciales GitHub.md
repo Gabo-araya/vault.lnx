@@ -230,6 +230,8 @@ git push -u origin main
 ---
 ## 5. Consejos para realizar commits de calidad
 
+Las descripciones de los commits son una forma importante de comunicar y documentar los cambios en el código. Una buena descripción facilita la colaboración y la comprensión del historial de cambios por parte de tu equipo y futuros desarrolladores.
+
 Consejos para escribir descripciones útiles y claras al usar el comando `git commit -m "descripcion"`:
 
 1. **Sé conciso pero descriptivo:** Intenta resumir el propósito del commit en una sola línea, pero asegúrate de que sea lo suficientemente descriptivo para que otros puedan entender de qué se trata el cambio.
@@ -254,6 +256,6 @@ Consejos para escribir descripciones útiles y claras al usar el comando `git co
 
 11. **Evita cambios masivos en un solo commit:** Si es posible, intenta hacer cambios más pequeños y específicos en cada commit en lugar de cambios masivos en un solo commit. Esto hace que los cambios sean más manejables y fáciles de entender.
 
-Recuerda que las descripciones de los commits son una forma importante de comunicar y documentar los cambios en el código. Una buena descripción facilita la colaboración y la comprensión del historial de cambios por parte de tu equipo y futuros desarrolladores.
+
 
 ---
