@@ -170,10 +170,14 @@ Es necesario agregar al nuevo usuario al grupo "sudo"
 sudo usermod -aG sudo usuario
 ```
 
+Este comando agrega al usuario `usuario` al grupo `sudo`. La opción `-aG` se utiliza para agregar (`-a`) el usuario a un grupo suplementario (`-G`). Es importante usar `-a` para asegurar que el usuario no sea eliminado de otros grupos en los que pueda estar. Después de ejecutar este comando, el usuario `usuario` tendrá permisos de superusuario (sudo), lo que le permitirá ejecutar comandos como root. Es posible que necesites reiniciar la sesión del usuario o cerrar y volver a abrir la terminal para que los cambios surtan efecto.
+
 Agregar el path a bash para ese usuario
 ```bash
 sudo chsh -s /bin/bash usuario
 ```
+
+El comando `chsh` se utiliza para cambiar el shell de inicio de sesión del usuario. La opción `-s` se utiliza para especificar el shell, en este caso, `/bin/bash`. Este comando cambia el shell de inicio de sesión del usuario `usuario` a Bash. Bash es un shell popular que proporciona una interfaz de línea de comandos para interactuar con el sistema operativo. Este cambio es útil si deseas que el usuario utilice Bash como su shell predeterminado.
 
 ### Asignar grupos a un usuario
  
@@ -189,9 +193,19 @@ sudo adduser user kali; sudo adduser user adm; sudo adduser user dialout; sudo a
 
 ### Eliminar un usuario
 
-* Eliminar usuario
-    - `sudo userdel -remove kali`
-    - `sudo userdel -remove-home kali`
+1. `sudo userdel -remove kali`
+   Este comando elimina el usuario `kali` del sistema. La opción `-remove` instruye al comando `userdel` para eliminar el grupo principal del usuario si no hay otros usuarios que sean miembros de este grupo. Esto es útil para mantener limpio el sistema de grupos innecesarios. Además, este comando no elimina el directorio home ni el buzón de correo del usuario. Si necesitas que también se elimine el directorio home, deberías usar la opción `-r` o `-remove-home`.
+
+2. `sudo userdel -remove-home kali`
+   Este comando también elimina el usuario `kali`, pero además de la eliminación del usuario, también elimina su directorio home. Esto es útil cuando quieres asegurarte de que todos los archivos asociados con el usuario se eliminen completamente del sistema. Al igual que con la opción `-remove`, este comando no elimina el buzón de correo del usuario. Si necesitas que también se elimine el buzón de correo, deberías usar la opción `-r` .
+
+Es importante mencionar que si el usuario que deseas eliminar todavía está conectado o si hay procesos en ejecución que pertenecen a este usuario, el comando `userdel` no permitirá eliminar el usuario. En esta situación, se recomienda cerrar sesión del usuario y matar todos los procesos en ejecución con el comando `killall`:
+
+`sudo killall -u kali`
+
+Otra opción es usar la opción `-f` (force) que le dice a `userdel` que elimine forzosamente la cuenta de usuario, incluso si el usuario todavía está conectado o si hay procesos en ejecución que pertenecen al usuario:
+
+`sudo userdel -f kali`
 
 ---
 ## 9. Cambiar el nombre del host
@@ -205,6 +219,8 @@ Video de apoyo: [Change Linux Username & Hostname](https://www.youtube.com/watch
 
 * Para ver los datos del sistema
 	- `hostnamectl`
+
+Este comando se utiliza para mostrar o configurar el nombre del sistema, el estado de la red, y otros detalles relacionados con el sistema operativo. `hostnamectl` es parte del paquete `systemd`, el sistema de inicio y el administrador de servicios en sistemas Linux modernos. Este comando es útil para verificar la configuración del sistema, como el nombre de host, el estado de la red, y otros detalles del sistema. Sin opciones, `hostnamectl` simplemente muestra la información actual del sistema. Puedes utilizar opciones como `hostnamectl set-hostname` para cambiar el nombre del sistema o `hostnamectl set-static-hostname` para establecer un nombre de host estático.
 
 * Para cambiar nombre de host editar `/etc/hostname` y escribir el nuevo nombre, en este caso será "hostname".
     - `sudo nano /etc/hostname`

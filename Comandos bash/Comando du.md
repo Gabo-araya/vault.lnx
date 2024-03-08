@@ -50,7 +50,7 @@ du -h –time /home/user/Desktop
 Muestra una lista de opciones disponibles y para qué se pueden utilizar.
 
 ```
-du –help
+du –-help
 ```
 
 ---
