@@ -22,55 +22,7 @@
             }
           },
           {
-            "id": "247a97a88d8eabb4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Django Info/Django - Información de Configuración.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e3d6530d80e6ab00",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GRC - Governability Risk Compliance/How to Make Sense of Cybersecurity Frameworks - video.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "dabc2df646a0930e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Comandos bash/Comando du.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "afd30415ba3bce97",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Comandos bash/Comando df.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4fa3c8caa5d788dd",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -82,33 +34,31 @@
             }
           },
           {
-            "id": "37ce8254497f604a",
+            "id": "4fa3c8caa5d788dd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Django Info/Deploy Django/deploy_pythonanywhere_django3.2.md",
+                "file": "Linux Hacking/OpenVAS.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8eaf219f187b9497",
+            "id": "cd690669fd0515d5",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GRC - Governability Risk Compliance/Gestión del cambio en las organizaciones.md",
+                "file": "Linux Hacking/OpenVAS.md",
                 "mode": "source",
                 "source": false
-              },
-              "pinned": true
+              }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -137,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "comando dig",
+                "query": "kali post",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -174,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux Hacking/Kali Linux post-instalacion.md",
+                "file": "Linux Hacking/OpenVAS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux Hacking/Kali Linux post-instalacion.md",
+                "file": "Linux Hacking/OpenVAS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux Hacking/Kali Linux post-instalacion.md"
+                "file": "Linux Hacking/OpenVAS.md"
               }
             }
           },
@@ -248,53 +198,53 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "4fa3c8caa5d788dd",
+  "active": "cd690669fd0515d5",
   "lastOpenFiles": [
+    "Linux Hacking/OpenVAS install.md",
+    "Linux Hacking/OpenVAS.md",
+    "Linux Hacking/Enumerar equipos y encontrar vulnerabilidades.md",
+    "Linux Hacking/archivos/Selección_856 1.png",
+    "Linux Hacking/archivos/Selección_856.png",
+    "Linux Hacking/archivos/Selección_855.png",
+    "Linux Hacking/archivos/Selección_853.png",
+    "Linux Hacking/archivos/Selección_852.png",
+    "Linux Hacking/archivos/Selección_851.png",
+    "Linux Hacking/archivos/Selección_850.png",
+    "Linux Hacking/archivos/Selección_848.png",
+    "Linux Hacking/archivos/Selección_847.png",
+    "Linux Hacking/archivos/Selección_253.png",
+    "revisar/Workshop - Herramientas de Blue Team Open Source.md",
+    "revisar/Scan - kila.devel.newtenberg.com - 03.2024.md",
+    "revisar/OpenVAS install.md",
+    "revisar/archivos",
+    "GRC - Governability Risk Compliance/Gestión del cambio en las organizaciones.md",
+    "Home.md",
+    "Django Info/Django - Información de Configuración.md",
+    "GRC - Governability Risk Compliance/How to Make Sense of Cybersecurity Frameworks - video.md",
+    "Django Info/Deploy Django/deploy_pythonanywhere_django3.2.md",
+    "Linux Hacking/Kali Linux post-instalacion.md",
     "Comandos bash/Comando df.md",
+    "Linux Hacking/Atacar Metasploitable 2.md",
     "Comandos bash/Comando du.md",
+    "Normativa/Ley Marco de Ciberseguridad.pdf",
+    "revisar/clase_24.08.2023.md",
+    "Django Info/Datos iniciales GitHub.md",
+    "Linux Hacking/Configuración de GIT con GitHub.md",
     "Linux Hacking/Conocer el espacio disponible en disco.md",
     "Comandos bash/Comando dig.md",
     "Comandos bash/Comando dirb.md",
     "Comandos bash/Comando nmap.md",
-    "Linux Hacking/Atacar Metasploitable 2.md",
     "GRC - Governability Risk Compliance/How to Make Sense of Cybersecurity Frameworks - article.md",
     "GRC - Governability Risk Compliance/NIST CSF/NIST.CSWP.29.pdf",
-    "GRC - Governability Risk Compliance/How to Make Sense of Cybersecurity Frameworks - video.md",
     "Linux Hacking/Herramienta Tenable Nessus.md",
-    "Linux Hacking/archivos/Selección_1375.png",
-    "Linux Hacking/archivos/Selección_1377.png",
-    "Linux Hacking/archivos/Selección_1374.png",
-    "Linux Hacking/archivos/Selección_1372b.png",
-    "Linux Hacking/archivos/Selección_1372.png",
-    "Linux Hacking/archivos/Selección_1371.png",
-    "Linux Hacking/archivos/Selección_1370.png",
-    "Linux Hacking/archivos/Selección_1379.png",
-    "Linux Hacking/archivos/Selección_1369.png",
-    "Linux Hacking/archivos/Selección_1364.png",
-    "Django Info/Deploy Django/deploy_pythonanywhere_django3.2.md",
     "Linux Hacking/archivos",
     "Linux Hacking/Herramienta BurpSuite.md",
     "Linux Hacking/Conectarse con ssh.md",
-    "Linux Hacking/Atacar DVWA.md",
-    "Linux Hacking/Kali Linux post-instalacion.md",
-    "Ciberseguridad.md",
-    "Linux Hacking/Ubuntu Touch - Google Pixel 3a.md",
-    "Normativa/Leyes Ciberseguridad Chile.md",
-    "Normativa/Ley 21.459.md",
     "Normativa/Ley-21459_20-JUN-2022_firmado.pdf",
     "Normativa/Ley-21459_20-JUN-2022.pdf",
-    "Conceptos/Recopilacion de informacion.md",
-    "Conceptos/Resolución de problemas.md",
-    "Django Info/Deploy Django/deploy_cpanel_django3.2.md",
-    "Django Info/Deploy Django/migrar_bd_sqlite_mysql.md",
-    "Django Info/Advanced Django Cheat Sheet.md",
-    "Django Info/Datos iniciales GitHub.md",
-    "Django Info/Django - Información de Configuración.md",
     "GRC - Governability Risk Compliance/ISO 270XX/curso uchile/PPT_Norma27001.pdf",
     "GRC - Governability Risk Compliance/ISO 270XX/curso uchile/PPT_Controles_del_Anexo_A_de_27001_2022.pdf",
     "GRC - Governability Risk Compliance/ISO 270XX/curso uchile/Interacciones_de_un_SGS_en_ISO_27001_2022.pdf",
-    "GRC - Governability Risk Compliance/ISO 31000/ISO 31000 2018 ES.pdf",
-    "GRC - Governability Risk Compliance/ISO 270XX/ISO 27004-2010.pdf",
-    "CURSOS/Uchile"
+    "GRC - Governability Risk Compliance/ISO 31000/ISO 31000 2018 ES.pdf"
   ]
 }

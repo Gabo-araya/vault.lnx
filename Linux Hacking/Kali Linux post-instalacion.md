@@ -115,6 +115,27 @@ Tenga en cuenta lo siguiente:
   startx
   ```
 
+Actualizar la versión completa del sistema
+
+```bash
+sudo apt-get update && sudo apt-get autoclean && sudo apt-get clean && sudo apt-get autoremove
+```
+
+```bash
+sudo apt full-upgrade
+```
+
+Se puede actualizar a la versión completa de Kali Linux con el comando
+```bash
+sudo apt dist-upgrade
+```
+
+También se pude usar el comando
+```bash
+sudo apt install kali-linux-large
+```
+
+
 ---
 ## 5. Cambiar el password predeterminado
 
@@ -157,7 +178,11 @@ Esto sirve para copiar archivos en el equipo host y pegarlos en el equipo virtua
 
 Para crear un nuevo usuario, ejecutar el comando `adduser [usuario]`, en este ejemplo usaremos el nombre "usuario"
 ```bash
-sudo adduser usuario
+sudo adduser user
+```
+
+```bash
+sudo adduser gabo
 ```
 
 Para verificar la creación del usuario, se puede revisar la existencia de la carpeta del usuario dentro de home
@@ -185,11 +210,23 @@ Para saber los grupos que tiene un usuario:
 ```bash
 groups {user}
 ```
- 
+
+```
+┌──(kali㉿kali)-[~]
+└─$ groups kali
+kali : kali adm dialout cdrom floppy sudo audio dip video plugdev users netdev bluetooth scanner wireshark kaboxer vboxsf
+```
+
 Asignar grupos de usuarios en Kali:
 ```bash
 sudo adduser user kali; sudo adduser user adm; sudo adduser user dialout; sudo adduser user cdrom; sudo adduser user floppy; sudo adduser user sudo; sudo adduser user audio; sudo adduser user dip; sudo adduser user video; sudo adduser user plugdev; sudo adduser user users; sudo adduser user netdev; sudo adduser user bluetooth; sudo adduser user scanner; sudo adduser user wireshark; sudo adduser user kaboxer; sudo adduser user vboxsf;
 ```
+
+Asignar grupos de usuarios para el usuario gabo en Kali:
+```bash
+sudo adduser gabo kali; sudo adduser gabo adm; sudo adduser gabo dialout; sudo adduser gabo cdrom; sudo adduser gabo floppy; sudo adduser gabo sudo; sudo adduser gabo audio; sudo adduser gabo dip; sudo adduser gabo video; sudo adduser gabo plugdev; sudo adduser gabo users; sudo adduser gabo netdev; sudo adduser gabo bluetooth; sudo adduser gabo scanner; sudo adduser gabo wireshark; sudo adduser gabo kaboxer; sudo adduser gabo vboxsf;
+```
+
 
 ### Eliminar un usuario
 
@@ -253,28 +290,7 @@ sudo apt autoremove -y
 ```
 
 ---
-## 11. Actualizar la versión completa del sistema
-
-```bash
-sudo apt-get update && sudo apt-get autoclean && sudo apt-get clean && sudo apt-get autoremove
-```
-
-```bash
-sudo apt full-upgrade
-```
-
-Se puede actualizar a la versión completa de Kali Linux con el comando
-```bash
-sudo apt dist-upgrade
-```
-
-También se pude usar el comando
-```bash
-sudo apt install kali-linux-large
-```
-
----
-## 12. Instalar algún otro paquete necesario
+## 11. Instalar algún otro paquete necesario
 
 Se pueden INSTALAR nuevos paquetes con el comando
 ```bash
@@ -286,8 +302,13 @@ Se pueden BUSCAR nuevos paquetes con el comando
 sudo apt search [paquete]
 ```
 
+Se pueden DESINSTALAR paquetes antiguos con el comando
+```bash
+sudo apt purge [paquete]
+```
+
 ---
-## 13. Tips and Tricks: Fixing VirtualBox Kali Linux Black Screen
+## 12. Tips and Tricks: Fixing VirtualBox Kali Linux Black Screen
 
 Obtenido desde: https://haxez.org/2022/04/tricks-and-tips-fixing-virtualbox-kali-linux-black-screen/
 
