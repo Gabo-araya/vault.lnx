@@ -89,6 +89,30 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Linux Hacking/tools/Script para ejecutar nmap en múltiples subdominios.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "810a0e690dd0f8e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux Hacking/tools/Script para ejecutar theHarvester en múltiples fuentes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "317030b9b15cd6db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Linux Hacking/tools/darka94 vulnerability scan.md",
                 "mode": "source",
                 "source": false
@@ -162,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux Hacking/tools/darka94 vulnerability scan.md",
+                "file": "Linux Hacking/tools/Script para ejecutar nmap en múltiples subdominios.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux Hacking/tools/darka94 vulnerability scan.md",
+                "file": "Linux Hacking/tools/Script para ejecutar nmap en múltiples subdominios.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +226,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux Hacking/tools/darka94 vulnerability scan.md"
+                "file": "Linux Hacking/tools/Script para ejecutar nmap en múltiples subdominios.md"
               }
             }
           },
@@ -223,7 +247,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 308.5
+    "width": 308.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -238,8 +263,10 @@
   },
   "active": "45aa58ef9e082ae6",
   "lastOpenFiles": [
-    "Linux Hacking/Conectarse usando TOR.md",
+    "Linux Hacking/tools/Script para ejecutar theHarvester en múltiples fuentes.md",
+    "Linux Hacking/tools/Script para ejecutar nmap en múltiples subdominios.md",
     "Linux Hacking/tools/darka94 vulnerability scan.md",
+    "Linux Hacking/Conectarse usando TOR.md",
     "Linux Hacking/Herramienta theHarvester.md",
     "Linux Hacking/tools",
     "Linux Hacking/Herramienta Tenable Nessus.md",
@@ -274,8 +301,6 @@
     "Django Info/Django - Información de Configuración.md",
     "GRC - Governability Risk Compliance/How to Make Sense of Cybersecurity Frameworks - video.md",
     "Django Info/Deploy Django/deploy_pythonanywhere_django3.2.md",
-    "Comandos bash/Comando df.md",
-    "Linux Hacking/Atacar Metasploitable 2.md",
     "Normativa/Ley Marco de Ciberseguridad.pdf",
     "GRC - Governability Risk Compliance/NIST CSF/NIST.CSWP.29.pdf",
     "Linux Hacking/archivos",
