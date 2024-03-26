@@ -36,10 +36,24 @@
           {
             "id": "4fa3c8caa5d788dd",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux Hacking/OpenVAS.md",
+                "file": "Linux Hacking/Conectarse usando TOR.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "2b8d9dc8ef2b8a58",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux Hacking/OpenVAS install.md",
                 "mode": "source",
                 "source": false
               }
@@ -51,14 +65,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux Hacking/OpenVAS.md",
+                "file": "Linux Hacking/Configuración de GIT con GitHub.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2714fe75f549f728",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "revisar/TEMP DATA - DELETE.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "45aa58ef9e082ae6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux Hacking/tools/darka94 vulnerability scan.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -87,7 +125,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "kali post",
+                "query": "tag:#arreglar",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,7 +146,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 343.5
   },
   "right": {
     "id": "aeb1996e648a0195",
@@ -124,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux Hacking/OpenVAS.md",
+                "file": "Linux Hacking/tools/darka94 vulnerability scan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux Hacking/OpenVAS.md",
+                "file": "Linux Hacking/tools/darka94 vulnerability scan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux Hacking/OpenVAS.md"
+                "file": "Linux Hacking/tools/darka94 vulnerability scan.md"
               }
             }
           },
@@ -198,21 +236,35 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "cd690669fd0515d5",
+  "active": "45aa58ef9e082ae6",
   "lastOpenFiles": [
+    "Linux Hacking/Conectarse usando TOR.md",
+    "Linux Hacking/tools/darka94 vulnerability scan.md",
+    "Linux Hacking/Herramienta theHarvester.md",
+    "Linux Hacking/tools",
+    "Linux Hacking/Herramienta Tenable Nessus.md",
+    "Linux Hacking/Navegar de forma anónima.md",
+    "Linux Hacking/Kali Tools.md",
+    "Linux Hacking/Kali Linux post-instalacion.md",
+    "Linux Hacking/Enumerar equipos y encontrar vulnerabilidades.md",
+    "Linux Hacking/Enumerar equipos en una red con nmap.md",
+    "Linux Hacking/Diferencia entre systemctl y service.md",
+    "Linux Hacking/Conectarse gráficamente con Remmina.md",
     "Linux Hacking/OpenVAS install.md",
     "Linux Hacking/OpenVAS.md",
-    "Linux Hacking/Enumerar equipos y encontrar vulnerabilidades.md",
-    "Linux Hacking/archivos/Selección_856 1.png",
+    "Django Info/Advanced Django Cheat Sheet.md",
+    "Linux Hacking/archivos/OpenVAS_edit_config_clone_portscanner.png",
+    "Linux Hacking/archivos/OpenVAS_new_target.png",
+    "Linux Hacking/archivos/OpenVAS_scan_configs.png",
+    "Linux Hacking/archivos/OpenVAS_new_port_list.png",
+    "Linux Hacking/archivos/OpenVAS_gvm-setup.png",
+    "Linux Hacking/archivos/OpenVAS_feed_status.png",
+    "Linux Hacking/Configuración de GIT con GitHub.md",
+    "revisar/TEMP DATA - DELETE.md",
     "Linux Hacking/archivos/Selección_856.png",
-    "Linux Hacking/archivos/Selección_855.png",
-    "Linux Hacking/archivos/Selección_853.png",
     "Linux Hacking/archivos/Selección_852.png",
     "Linux Hacking/archivos/Selección_851.png",
-    "Linux Hacking/archivos/Selección_850.png",
     "Linux Hacking/archivos/Selección_848.png",
-    "Linux Hacking/archivos/Selección_847.png",
-    "Linux Hacking/archivos/Selección_253.png",
     "revisar/Workshop - Herramientas de Blue Team Open Source.md",
     "revisar/Scan - kila.devel.newtenberg.com - 03.2024.md",
     "revisar/OpenVAS install.md",
@@ -222,29 +274,15 @@
     "Django Info/Django - Información de Configuración.md",
     "GRC - Governability Risk Compliance/How to Make Sense of Cybersecurity Frameworks - video.md",
     "Django Info/Deploy Django/deploy_pythonanywhere_django3.2.md",
-    "Linux Hacking/Kali Linux post-instalacion.md",
     "Comandos bash/Comando df.md",
     "Linux Hacking/Atacar Metasploitable 2.md",
-    "Comandos bash/Comando du.md",
     "Normativa/Ley Marco de Ciberseguridad.pdf",
-    "revisar/clase_24.08.2023.md",
-    "Django Info/Datos iniciales GitHub.md",
-    "Linux Hacking/Configuración de GIT con GitHub.md",
-    "Linux Hacking/Conocer el espacio disponible en disco.md",
-    "Comandos bash/Comando dig.md",
-    "Comandos bash/Comando dirb.md",
-    "Comandos bash/Comando nmap.md",
-    "GRC - Governability Risk Compliance/How to Make Sense of Cybersecurity Frameworks - article.md",
     "GRC - Governability Risk Compliance/NIST CSF/NIST.CSWP.29.pdf",
-    "Linux Hacking/Herramienta Tenable Nessus.md",
     "Linux Hacking/archivos",
-    "Linux Hacking/Herramienta BurpSuite.md",
-    "Linux Hacking/Conectarse con ssh.md",
     "Normativa/Ley-21459_20-JUN-2022_firmado.pdf",
     "Normativa/Ley-21459_20-JUN-2022.pdf",
     "GRC - Governability Risk Compliance/ISO 270XX/curso uchile/PPT_Norma27001.pdf",
     "GRC - Governability Risk Compliance/ISO 270XX/curso uchile/PPT_Controles_del_Anexo_A_de_27001_2022.pdf",
-    "GRC - Governability Risk Compliance/ISO 270XX/curso uchile/Interacciones_de_un_SGS_en_ISO_27001_2022.pdf",
-    "GRC - Governability Risk Compliance/ISO 31000/ISO 31000 2018 ES.pdf"
+    "GRC - Governability Risk Compliance/ISO 270XX/curso uchile/Interacciones_de_un_SGS_en_ISO_27001_2022.pdf"
   ]
 }

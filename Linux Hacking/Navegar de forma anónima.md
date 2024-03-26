@@ -104,7 +104,11 @@ Recuerda que, al conectarte a la red Tor, tu tráfico de Internet se enruta a tr
 
 ## Conectarse usando TOR (systemctl)
 
-Para conectarte a la red Tor utilizando `systemctl`, necesitas utilizar el comando `tor.service`. Aquí tienes los pasos para hacerlo:
+Para conectarte a la red Tor utilizando `systemctl`, necesitas utilizar el comando `tor.service`. 
+
+Al conectarte a la red Tor, tu tráfico de Internet se enruta a través de una serie de nodos en todo el mundo para preservar la privacidad. Sin embargo, utilizar el navegador Tor Browser proporciona una experiencia de navegación web más completa y segura en comparación con el uso de `torsocks`.
+
+Aquí tienes los pasos para hacerlo:
 
 1. **Instala Tor:**
    Si aún no tienes Tor instalado, puedes hacerlo utilizando el siguiente comando en la terminal:
@@ -149,12 +153,16 @@ Para conectarte a la red Tor utilizando `systemctl`, necesitas utilizar el coman
    sudo systemctl stop tor.service
    ```
 
-Recuerda que, al conectarte a la red Tor, tu tráfico de Internet se enruta a través de una serie de nodos en todo el mundo para preservar la privacidad. Sin embargo, utilizar el navegador Tor Browser proporciona una experiencia de navegación web más completa y segura en comparación con el uso de `torsocks`.
-
 ---
 ## Diferencia entre torsocks y proxychains
 
-Ambos `torsocks` y `proxychains` son herramientas que permiten enrutar el tráfico de red a través de la red Tor para mejorar la privacidad y el anonimato, pero tienen algunas diferencias en cómo funcionan y se utilizan:
+Ambos `torsocks` y `proxychains` son herramientas que permiten enrutar el tráfico de red a través de la red Tor para mejorar la privacidad y el anonimato, pero tienen algunas diferencias en cómo funcionan y se utilizan.
+
+**Diferencias clave:**
+- `torsocks` es más simple y directo, pero no funciona con todas las aplicaciones debido a su enfoque transparente.
+- `proxychains` es más configurable y versátil, pero requiere una configuración previa y es más adecuado para usuarios que quieren más control sobre el enrutamiento del tráfico.
+
+Si estás buscando una forma sencilla de enrutar el tráfico de una aplicación específica a través de Tor y esa aplicación es compatible con `torsocks`, esta es la opción más conveniente. Por otro lado, si deseas más flexibilidad y control sobre el enrutamiento de tráfico a través de proxies, incluyendo Tor, `proxychains` es la elección adecuada.
 
 **1. torsocks:**
 - `torsocks` es una herramienta que permite que las aplicaciones utilicen la red Tor de forma transparente, sin necesidad de configurar cada aplicación por separado.
@@ -168,16 +176,14 @@ Ambos `torsocks` y `proxychains` son herramientas que permiten enrutar el tráfi
 - Es más versátil en términos de la elección de proxies (no solo Tor) y puede enrutar el tráfico a través de múltiples proxies en cadena.
 - Requiere ajustar la configuración para cada aplicación que se desee ejecutar a través de Tor.
 
-**Diferencias clave:**
-- `torsocks` es más simple y directo, pero no funciona con todas las aplicaciones debido a su enfoque transparente.
-- `proxychains` es más configurable y versátil, pero requiere una configuración previa y es más adecuado para usuarios que quieren más control sobre el enrutamiento del tráfico.
-
-En resumen, si estás buscando una forma sencilla de enrutar el tráfico de una aplicación específica a través de Tor y esa aplicación es compatible con `torsocks`, esta es la opción más conveniente. Por otro lado, si deseas más flexibilidad y control sobre el enrutamiento de tráfico a través de proxies, incluyendo Tor, `proxychains` es la elección adecuada.
-
-----
+---
 ## Compatibilidad de aplicaciones con torsocks
 
-Determinar si una aplicación es compatible con `torsocks` puede ser un proceso un tanto experimental, ya que no hay una lista exhaustiva de aplicaciones compatibles o incompatibles. Sin embargo, puedes seguir estos pasos para probar si una aplicación funciona correctamente con `torsocks`:
+Determinar si una aplicación es compatible con `torsocks` puede ser un proceso un tanto experimental, ya que no hay una lista exhaustiva de aplicaciones compatibles o incompatibles. 
+
+Recuerda que la compatibilidad con `torsocks` puede variar según la aplicación y la versión. Si una aplicación no funciona correctamente con `torsocks`, considera explorar alternativas o utilizar herramientas más versátiles como `proxychains`.
+
+Se pueden seguir estos pasos para probar si una aplicación funciona correctamente con `torsocks`:
 
 1. **Instala `torsocks`:**
    Asegúrate de tener `torsocks` instalado en tu sistema. Si aún no lo tienes, instálalo con el siguiente comando:
@@ -205,10 +211,10 @@ Determinar si una aplicación es compatible con `torsocks` puede ser un proceso 
 5. **Investigación y Documentación:**
    Algunas aplicaciones podrían requerir configuraciones adicionales para funcionar con `torsocks`. Investiga la documentación de la aplicación o busca en línea si otros usuarios han tenido éxito en la ejecución de la aplicación a través de `torsocks`.
 
-Recuerda que la compatibilidad con `torsocks` puede variar según la aplicación y la versión. Si una aplicación no funciona correctamente con `torsocks`, considera explorar alternativas o utilizar herramientas más versátiles como `proxychains`.
-
 ---
 ## Conectarse a TOR usando proxychains
+
+Recuerda que `proxychains` te permite enrutar el tráfico de red de múltiples aplicaciones a través de proxies, no solo Tor. Asegúrate de usar el proxy adecuado para tus necesidades de privacidad.
 
 Para conectarte a la red Tor utilizando `proxychains`, sigue estos pasos:
 
@@ -242,8 +248,6 @@ Para conectarte a la red Tor utilizando `proxychains`, sigue estos pasos:
 
 5. **Prueba de Funcionalidad:**
    Al igual que con `torsocks`, algunas aplicaciones podrían no funcionar correctamente con `proxychains`. Prueba las funcionalidades clave de la aplicación para asegurarte de que todo esté en orden.
-
-Recuerda que `proxychains` te permite enrutar el tráfico de red de múltiples aplicaciones a través de proxies, no solo Tor. Asegúrate de usar el proxy adecuado para tus necesidades de privacidad.
 
 ---
 

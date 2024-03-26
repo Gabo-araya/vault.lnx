@@ -83,3 +83,6 @@ theHarvester -d example.com -b google -f resultados.txt
 Este comando buscará correos electrónicos asociados al dominio "example.com" utilizando el motor de búsqueda de Google y guardará los resultados en un archivo llamado "resultados.txt".
 
 Recuerda que theHarvester admite varios motores de búsqueda y fuentes de datos públicas, por lo que puedes experimentar con diferentes combinaciones para obtener la información que necesitas en tus investigaciones. Siempre asegúrate de utilizar la herramienta de manera ética y respetando las políticas y leyes aplicables. Además, ten en cuenta que algunas fuentes pueden tener limitaciones de acceso o requerir autenticación, por lo que los resultados pueden variar según las restricciones de cada motor de búsqueda o plataforma en línea.
+
+---
+

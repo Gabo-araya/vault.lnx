@@ -2,21 +2,26 @@
 # OpenVAS
 
 ---
-**Tags:** #info #hacking #tool #arreglar 
+**Tags:** #info #hacking #tool #openvas
 
 > [!info] Volver a [[Home]] | [[Ciberseguridad]] 
 
 ---
 
+OpenVAS (Open Vulnerability Assessment System) es un escáner de vulnerabilidades de red de código abierto que se utiliza para identificar y administrar las vulnerabilidades en sistemas informáticos y redes. Proporciona un conjunto completo de herramientas para detectar y evaluar posibles problemas de seguridad en redes y sistemas, incluyendo:
+
+1. Escaneo de puertos: OpenVAS puede explorar los puertos de una red para identificar servicios y protocolos en ejecución, lo que ayuda a determinar posibles puntos de entrada para ataques.
+
+2. Detección de vulnerabilidades: Utiliza una base de datos de firmas de vulnerabilidades para identificar posibles problemas de seguridad en sistemas operativos, aplicaciones y servicios en ejecución.
+
+3. Análisis de configuración: OpenVAS puede evaluar la configuración de sistemas y aplicaciones en busca de configuraciones incorrectas o inseguras que podrían ser explotadas por atacantes.
+
+4. Generación de informes: Ofrece capacidades de generación de informes detallados que permiten a los administradores de sistemas y seguridad analizar y priorizar las vulnerabilidades encontradas, así como realizar un seguimiento del progreso de las correcciones.
+
+En resumen, OpenVAS es una herramienta esencial para evaluar la seguridad de una red o sistema informático al identificar posibles vulnerabilidades y ayudar a los administradores de seguridad a tomar medidas correctivas para mitigar los riesgos de seguridad.
+
+---
 ## Instalar OpenVAS
-
-> [!tip] Más información:
-> - https://www.looklinux.com/how-to-install-openvas-on-ubuntu-debian-or-kali-linux-machine/
-> - https://www.youtube.com/watch?v=k1Pfsl-dKN4
-> - https://www.youtube.com/watch?v=k6EZOO61kOk
-> - https://www.youtube.com/watch?v=LGh2SetiKaY
-> - https://www.youtube.com/watch?v=poD-4UGF5aE
-
 
 ```
 sudo apt install openvas
@@ -80,6 +85,7 @@ Processing triggers for libc-bin (2.37-12) ...
 Processing triggers for man-db (2.12.0-3) ...
 ```
 
+---
 ## Configurar OpenVAS
 
 ```
@@ -119,7 +125,7 @@ CREATE EXTENSION
 [>] Checking for GVM admin user
 [*] Creating user admin for gvm
 [*] Please note the generated admin password
-[*] User created with password '238ba5a5-91b3-436f-aa2a-3599f5a96ce1'.
+[*] User created with password '238ba5a5-9XXX-436f-aa2a-35XXXXa96ce1'.
 [*] Configure Feed Import Owner
 [*] Define Feed Import Owner
 [*] Update GVM feeds
@@ -143,17 +149,15 @@ Scanner modified.
                                                                                                                                           
 [+] Done                                                                                                                                  
 [*] Please note the password for the admin user                                                                                           
-[*] User created with password '238ba5a5-91b3-436f-aa2a-3599f5a96ce1'.                                                                         
+[*] User created with password '238ba5a5-9XXX-436f-aa2a-35XXXXa96ce1'.                                                                         
                                                                                                                                                
 [>] You can now run gvm-check-setup to make sure everything is correctly configured  
 ```
 
 ![[OpenVAS_gvm-setup.png]]
 
-![[Selección_848.png]]
-
-
-## Checkear configuración de OpenVAS
+---
+### Checkear configuración de OpenVAS
 
 ```
 sudo gvm-check-setup
@@ -163,6 +167,8 @@ Salida de terminal
 ```
 ┌──(kali㉿kali)-[~]
 └─$ sudo gvm-check-setup    
+[sudo] password for kali: 
+Sorry, try again.
 [sudo] password for kali: 
 gvm-check-setup 23.11.0
   Test completeness and readiness of GVM-23.11.0
@@ -224,7 +230,7 @@ It seems like your GVM-23.11.0 installation is OK.
 └─$ 
 ```
 
-## Actualizar feeds de vulnerabilidades en OpenVAS
+### Actualizar feeds de vulnerabilidades en OpenVAS
 
 Este comando reemplaza al antiguo `gvm-feed-update`
 ```
@@ -252,7 +258,7 @@ Releasing lock on /var/lib/gvm/feed-update.lock
 ```
 
 
-## Iniciar servicio OpenVAS
+### Iniciar servicio OpenVAS
 
 ```
 sudo gvm-start
@@ -325,99 +331,14 @@ Mar 14 11:16:22 kali systemd[1]: Started ospd-openvas.service - OSPd Wrapper for
 
 ```
 
-## Detener servicio OpenVAS
+### Detener servicio OpenVAS
 
 ```
 sudo gvm-stop
 ```
 
-## Credenciales de acceso
-Credenciales de acceso en la instalación de Kali para NTG en máquina virtual
-
-User
-```
-admin
-```
-
-
-Password
-```
-238ba5a5-91b3-436f-aa2a-3599f5a96ce1
-```
-
-```
-┌──(gabo㉿kali)-[~]
-└─$ sudo gvm-setup
-[sudo] password for gabo: 
-
-[>] Starting PostgreSQL service
-
-[>] Creating GVM's certificate files
-
-[>] Creating PostgreSQL database
-[i] User _gvm already exists in PostgreSQL
-[i] Database gvmd already exists in PostgreSQL
-[i] Role DBA already exists in PostgreSQL
-
-[*] Applying permissions
-NOTICE:  role "_gvm" has already been granted membership in role "dba" by role "postgres"
-GRANT ROLE
-[i] Extension uuid-ossp already exists for gvmd database
-[i] Extension pgcrypto already exists for gvmd database
-[i] Extension pg-gvm already exists for gvmd database
-[>] Migrating database
-[>] Checking for GVM admin user
-[*] Configure Feed Import Owner
-[*] Update GVM feeds
-Running as root. Switching to user '_gvm' and group '_gvm'.
-Trying to acquire lock on /var/lib/openvas/feed-update.lock
-Acquired lock on /var/lib/openvas/feed-update.lock
-⠋ Downloading Notus files from rsync://feed.community.greenbone.net/community/vulnerability-feed/22.04/vt-data/notus/ to /var/lib/notus
-⠴ Downloading NASL files from rsync://feed.community.greenbone.net/community/vulnerability-feed/22.04/vt-data/nasl/ to /var/lib/openvas/plugins
-Releasing lock on /var/lib/openvas/feed-update.lock                                                                                                                 
-                                                                                                                                                                    
-Trying to acquire lock on /var/lib/gvm/feed-update.lock                                                                                                             
-Acquired lock on /var/lib/gvm/feed-update.lock                                                                                                                      
-⠏ Downloading SCAP data from rsync://feed.community.greenbone.net/community/vulnerability-feed/22.04/scap-data/ to /var/lib/gvm/scap-data
-⠸ Downloading CERT-Bund data from rsync://feed.community.greenbone.net/community/vulnerability-feed/22.04/cert-data/ to /var/lib/gvm/cert-data
-⠴ Downloading gvmd data from rsync://feed.community.greenbone.net/community/data-feed/22.04/ to /var/lib/gvm/data-objects/gvmd/22.04
-Releasing lock on /var/lib/gvm/feed-update.lock                                                                                                                     
-                                                                                                                                                                    
-[*] Checking Default scanner                                                                                                                                        
-08b69003-5fc2-4037-a479-93b440211c73  OpenVAS  /run/ospd/ospd.sock  0  OpenVAS Default                                                                              
-[i] No need to alter default scanner                                                                                                                                
-                                                                                                                                                                    
-[+] Done
-[i] Admin user already exists for GVM
-[i] If you have forgotten it, you can change it. See gvmd manpage for more information
-
-[>] You can now run gvm-check-setup to make sure everything is correctly configured
-
-┌──(gabo㉿kali)-[~]
-└─$                                                                                                
-```
-
-Si se te olvida la password de OpenVAS
-
-```
-sudo -E -u _gvm -g _gvm gvmd --user=admin --new-password=NEW_PASSWD
-```
-
-```
-sudo -E -u _gvm -g _gvm gvmd --user=admin --new-password=238ba5a5-91b3-436f-aa2a-3599f5a96ce1
-```
-
-
+---
 ## Configuraciones extra
-
-Basado en:
-
-* https://www.youtube.com/watch?v=LGh2SetiKaY
-![](https://www.youtube.com/watch?v=LGh2SetiKaY)
-
-
-* https://www.youtube.com/watch?v=poD-4UGF5aE
-![](https://www.youtube.com/watch?v=poD-4UGF5aE)
 
 ### Revisar status de feed
 
@@ -431,7 +352,7 @@ Acceder a Configuration > PortLists
 
 ![[OpenVAS_new_port_list.png]]
 
-## Modificar Scan Config 
+### Modificar Scan Config 
 
 1. Clonar Scan Config "Full and fast"
    Ponerle de nombre "Full and fast - Clone + Port Scanner"
@@ -442,7 +363,7 @@ Acceder a Configuration > PortLists
 
 ![[OpenVAS_edit_config_clone_portscanner.png]]
 
-## Modificar greenbone-security-assistant.service
+### Modificar greenbone-security-assistant.service
 
 Se pueden hacer modificaciones adicionales en:
 `/lib/systemd/system/greenbone-security-assistant.service`
@@ -479,6 +400,21 @@ En el parámetro `ExecStart` se puede modificar la IP de acceso
 
 ![[OpenVAS_new_target.png]]
 
+## Fuentes y documentación
+
+Basado en los siguientes videos:
+
+* https://www.youtube.com/watch?v=LGh2SetiKaY
+![](https://www.youtube.com/watch?v=LGh2SetiKaY)
+
+* https://www.youtube.com/watch?v=poD-4UGF5aE
+![](https://www.youtube.com/watch?v=poD-4UGF5aE)
 
 
+> [!tip] Más información:
+> - https://www.looklinux.com/how-to-install-openvas-on-ubuntu-debian-or-kali-linux-machine/
+> - https://www.youtube.com/watch?v=k1Pfsl-dKN4
+> - https://www.youtube.com/watch?v=k6EZOO61kOk
+> - https://www.youtube.com/watch?v=LGh2SetiKaY
+> - https://www.youtube.com/watch?v=poD-4UGF5aE
 

@@ -15,6 +15,17 @@ Video de apoyo: https://www.youtube.com/watch?v=_nfUrkp-K1k
 
 #completar 
 
+Revisar también: 
+https://www.golinuxcloud.com/kali-vulnerability-scanner-tools/
+
+
+
+
+
+
+
+
+
 
 
 
